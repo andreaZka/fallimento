@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754AE3E218899AB00E8C779 /* addEvent.swift */; };
+		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
 		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A754AE3E218899AB00E8C779 /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
+		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
 		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +73,6 @@
 		B059067C21876A9800F52F7E /* Prototipo */ = {
 			isa = PBXGroup;
 			children = (
-				A754AE3E218899AB00E8C779 /* addEvent.swift */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
 				B059067F21876A9800F52F7E /* ContactsViewController.swift */,
 				B059068121876A9800F52F7E /* HomeViewController.swift */,
@@ -81,6 +80,7 @@
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
 				B059068321876A9800F52F7E /* Main.storyboard */,
+				A7F614A42188C1ED00D3414B /* addEvent.swift */,
 				B059068621876A9800F52F7E /* Assets.xcassets */,
 				B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
 			);
@@ -161,10 +161,10 @@
 				B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */,
 				B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
-				A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */,
 				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
 				B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
+				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
