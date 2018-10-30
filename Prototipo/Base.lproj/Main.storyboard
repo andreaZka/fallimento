@@ -258,8 +258,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GAj-vl-dd7">
-                                <rect key="frame" x="0.0" y="76" width="375" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAj-vl-dd7">
+                                <rect key="frame" x="0.0" y="362" width="375" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -330,6 +330,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="498"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0Ty-xI-tE8"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dC7-UH-uYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -344,6 +345,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="506"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ubj-MD-5Zh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRh-uP-YZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -358,6 +360,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="498"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rKx-wy-NcM"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="64y-2a-70O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -372,6 +375,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="506"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WGz-S3-1ga"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hv3-jb-VDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -386,6 +390,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="498"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Fx5-8w-fZM"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h44-ei-mLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -400,6 +405,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="498"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EyU-yz-g05"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DdC-2j-UQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -436,6 +442,7 @@
                             <constraint firstAttribute="trailing" secondItem="csj-zw-jFZ" secondAttribute="trailing" id="dDW-qQ-ap5"/>
                             <constraint firstItem="csj-zw-jFZ" firstAttribute="leading" secondItem="AV5-WU-6Ru" secondAttribute="leading" id="yWj-HP-fq5"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="YB5-jk-dPr"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vi5-yb-BSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
