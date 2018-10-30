@@ -10,6 +10,7 @@
 		A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754AE3E218899AB00E8C779 /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
+		B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C32188C34800B28DAA /* EventViewController.swift */; };
 		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
 		B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067F21876A9800F52F7E /* ContactsViewController.swift */; };
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
@@ -23,6 +24,7 @@
 		A754AE3E218899AB00E8C779 /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
+		B04EF1C32188C34800B28DAA /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = Classi/EventViewController.swift; sourceTree = SOURCE_ROOT; };
 		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B059067F21876A9800F52F7E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
+				B04EF1C32188C34800B28DAA /* EventViewController.swift */,
+				B059068121876A9800F52F7E /* HomeViewController.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -76,7 +80,6 @@
 				A754AE3E218899AB00E8C779 /* addEvent.swift */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
 				B059067F21876A9800F52F7E /* ContactsViewController.swift */,
-				B059068121876A9800F52F7E /* HomeViewController.swift */,
 				B059069121876C3B00F52F7E /* SearchViewController.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
@@ -163,6 +166,7 @@
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */,
 				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
+				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
 				B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
 			);

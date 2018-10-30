@@ -10,8 +10,8 @@ import UIKit
 
 class DettagliEventiViewController: UIViewController {
     
-    @IBOutlet weak var containerView1: UIView!  //domenica
-    @IBOutlet weak var containerView2: UIView!  //lunedi
+    @IBOutlet  var containerView1: UIView!  //domenica
+    @IBOutlet  var containerView2: UIView!  //lunedi
     @IBOutlet weak var containerView4: UIView! // martedi
     @IBOutlet weak var containerView3: UIView!// mercoledi
     @IBOutlet weak var containerView7: UIView!// giovedi
@@ -21,11 +21,13 @@ class DettagliEventiViewController: UIViewController {
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        segmentedControl.selectedSegmentIndex = 0
+        SwitchDay()
+        
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func SwitchDay(_ sender: Any) {
+    @IBAction func SwitchDay() {
        
         switch segmentedControl.selectedSegmentIndex {
         case 0:
@@ -48,7 +50,7 @@ class DettagliEventiViewController: UIViewController {
         case 2:
             containerView1.alpha = 0
             containerView2.alpha = 0
-            containerView3.alpha = 3
+            containerView3.alpha = 1
             containerView4.alpha = 0
             containerView5.alpha = 0
             containerView6.alpha = 0
@@ -91,7 +93,8 @@ class DettagliEventiViewController: UIViewController {
             break
         }
     }
-    }
+    
+}
     
     /*
     // MARK: - Navigation
@@ -102,5 +105,7 @@ class DettagliEventiViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+
 
 
