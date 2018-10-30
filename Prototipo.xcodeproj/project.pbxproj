@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754AE3E218899AB00E8C779 /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
+		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
 		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
 		B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067F21876A9800F52F7E /* ContactsViewController.swift */; };
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		A754AE3E218899AB00E8C779 /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
+		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
 		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B059067F21876A9800F52F7E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -43,9 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B04EF1C02188B72C00B28DAA /* Classi */ = {
+			isa = PBXGroup;
+			children = (
+				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
+			);
+			path = Classi;
+			sourceTree = "<group>";
+		};
 		B059067121876A9800F52F7E = {
 			isa = PBXGroup;
 			children = (
+				B04EF1C02188B72C00B28DAA /* Classi */,
 				B059067C21876A9800F52F7E /* Prototipo */,
 				B059067B21876A9800F52F7E /* Products */,
 			);
@@ -147,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */,
 				B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				A754AE3F218899AB00E8C779 /* addEvent.swift in Sources */,
