@@ -62,7 +62,6 @@
 		B059067C21876A9800F52F7E /* Prototipo */ = {
 			isa = PBXGroup;
 			children = (
-				B059068321876A9800F52F7E /* Main.storyboard */,
 				A754AE3E218899AB00E8C779 /* addEvent.swift */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
 				B059067F21876A9800F52F7E /* ContactsViewController.swift */,
@@ -70,6 +69,7 @@
 				B059069121876C3B00F52F7E /* SearchViewController.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
+				B059068321876A9800F52F7E /* Main.storyboard */,
 				B059068621876A9800F52F7E /* Assets.xcassets */,
 				B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
 			);
