@@ -13,6 +13,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tabella: UITableView!
     let campi = ["basket","calcio","tennis","pallavolo"]
     let campiImage = ["basket1","soccer","tennis1","volley"]
+    let N_eventi = ["Partita di fabio","partita di andrea","Partita di zi rafel", "partita di mario"]
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -22,18 +23,30 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         return campi.count
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80.0
+    }
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellId = "Cell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
-        cell.textLabel?.text = campi[indexPath.row]
-        cell.imageView?.image = UIImage(named: campiImage[indexPath.row])
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! TableViewCell1
+        
+//        cell..text = campi[indexPath.row]
+        cell.Name_event.text = N_eventi[indexPath.row]
+        cell.image1.image = UIImage(named: campiImage[indexPath.row])
+        cell.Type_ofSports.text = campi[indexPath.row]
+        
         return cell
     }
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tabella.separatorInset = UIEdgeInsets(top: 15.0, left: 0.0, bottom: 15.0, right: 0.0)
     }
     
     
