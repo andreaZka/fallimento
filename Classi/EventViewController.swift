@@ -12,7 +12,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tabella: UITableView!
     let campi = ["basket","basket","tennis"]
-    let campiImage = ["basket","basket","tennis"]
+    let campiImage = ["basket1","basket1","tennis1"]
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

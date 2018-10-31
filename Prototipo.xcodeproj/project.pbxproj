@@ -11,8 +11,9 @@
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
 		B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C32188C34800B28DAA /* EventViewController.swift */; };
+		B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */; };
+		B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */; };
 		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
-		B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067F21876A9800F52F7E /* ContactsViewController.swift */; };
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
 		B059068521876A9800F52F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068321876A9800F52F7E /* Main.storyboard */; };
 		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
@@ -25,9 +26,10 @@
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
 		B04EF1C32188C34800B28DAA /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = Classi/EventViewController.swift; sourceTree = SOURCE_ROOT; };
+		B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B059067F21876A9800F52F7E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		B059068121876A9800F52F7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B059068421876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 		B04EF1C02188B72C00B28DAA /* Classi */ = {
 			isa = PBXGroup;
 			children = (
+				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
+				B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */,
 				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
 				B04EF1C32188C34800B28DAA /* EventViewController.swift */,
 				B059068121876A9800F52F7E /* HomeViewController.swift */,
@@ -78,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
-				B059067F21876A9800F52F7E /* ContactsViewController.swift */,
 				B059069121876C3B00F52F7E /* SearchViewController.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
@@ -163,10 +166,11 @@
 			files = (
 				B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */,
 				B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
+				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
 				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
-				B059068021876A9800F52F7E /* ContactsViewController.swift in Sources */,
+				B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
 			);

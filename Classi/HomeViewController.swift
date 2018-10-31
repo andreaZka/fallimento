@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var tabella: UITableView!
     let campi = ["basket","calcio","tennis","pallavolo"]
-    let campiImage = ["basket","calcio","tennis","pallavolo"]
+    let campiImage = ["basket1","soccer","tennis1","volley"]
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
