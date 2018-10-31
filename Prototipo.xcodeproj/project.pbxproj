@@ -13,6 +13,7 @@
 		B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C32188C34800B28DAA /* EventViewController.swift */; };
 		B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */; };
 		B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */; };
+		B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */; };
 		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
 		B059068521876A9800F52F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068321876A9800F52F7E /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		B04EF1C32188C34800B28DAA /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = Classi/EventViewController.swift; sourceTree = SOURCE_ROOT; };
 		B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
 		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B059068121876A9800F52F7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
 				B04EF1C32188C34800B28DAA /* EventViewController.swift */,
 				B059068121876A9800F52F7E /* HomeViewController.swift */,
+				B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
+				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
 				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
 				B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,

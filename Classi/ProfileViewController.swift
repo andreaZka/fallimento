@@ -11,7 +11,8 @@ import UIKit
 class ProfileViewController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
-    @IBOutlet weak var Description: UITextView!
+
+        @IBOutlet weak var Description: UITextView!
     
     @IBOutlet weak var Eventi: UILabel!
     @IBOutlet weak var Medaglievinte: UILabel!
@@ -27,7 +28,11 @@ class ProfileViewController: UIViewController {
         stelle.type = .halfRatings
         stelle.delegate = self as FloatRatingViewDelegate
         liveLabel.text = String(format: "%.1f", self.stelle.rating)
-        
+        image.layer.borderWidth = 1.0
+        image.layer.masksToBounds = true
+        image.layer.cornerRadius =  image.frame.width/2.0
+        image.clipsToBounds = true
+//        image.layer.bounds = CGRect(x: 0, y: 0, width: image.layer.frame.width / 2, height: image.layer.frame.height / 2)
     }
     
 
