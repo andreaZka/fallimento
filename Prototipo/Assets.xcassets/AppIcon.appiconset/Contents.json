@@ -1,8 +1,9 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "Schermata 2018-10-31 alle 16.05.07.png",
       "scale" : "2x"
     },
     {
