@@ -7,8 +7,27 @@
 //
 
 import UIKit
+import MapKit
 
-class addEvent: UIViewController {
+class addEvent: UITableViewController {
+    
+    @IBOutlet var descLabel: UITextView!
+    
+    @IBOutlet var mapView: MKMapView!
+    @IBOutlet var datePicker: UIDatePicker!
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath.section {
+            case 0 where indexPath.row == 1:
+                 return descLabel.frame.height
+            case 1:
+                return datePicker.frame.height
+            case 2 where indexPath.row == 1:
+                return mapView.frame.height
+            default:
+                return 44
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
