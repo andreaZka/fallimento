@@ -17,8 +17,16 @@ class TableViewCell1: UITableViewCell {
 
     @IBOutlet weak var image1: UIImageView!
     
+    @IBOutlet weak var Orario: UILabel!
+    
     @IBOutlet weak var Name_event: UILabel!
     @IBOutlet weak var Type_ofSports: UILabel!
+    
+   
+    
+    
+    
+   
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
