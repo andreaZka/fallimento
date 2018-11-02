@@ -11,11 +11,19 @@ import MapKit
 
 class addEvent: UITableViewController {
     
-    @IBOutlet var descLabel: UITextView!
+    var nRighe=0;
+  @IBOutlet var descLabel: UITextView!
     
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var datePicker: UIDatePicker!
+    @IBAction func inviteButton(_ sender: Any) {
+        self.isEditing = !self.isEditing
+    }
     
+    
+    let persone = ["Pazkal","Agostino","Pietroppaolo","Felice","Camastra","Pierfrancesco"]
+   
+
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch indexPath.section {
             case 0 where indexPath.row == 1:
@@ -29,6 +37,10 @@ class addEvent: UITableViewController {
         }
     }
 
+    @IBOutlet var personTab: UITableView!
+    
+   override func tab
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,6 +48,9 @@ class addEvent: UITableViewController {
     }
     
 
+//    override func tableView(tableView: UITableViewController, numberOfRowsInSection){
+//
+//        return n_righe}
     /*
     // MARK: - Navigation
 
@@ -45,5 +60,11 @@ class addEvent: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+
+
+    
+
+  
 
 }
