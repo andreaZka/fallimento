@@ -26,6 +26,7 @@
 		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
 		B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
 		B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059069121876C3B00F52F7E /* SearchViewController.swift */; };
+		B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B059069121876C3B00F52F7E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				B052D469218B715500123A0A /* Event5ViewController.swift */,
 				B052D46B218B715F00123A0A /* Event6ViewController.swift */,
 				B052D46D218B716E00123A0A /* Event7ViewController.swift */,
+				B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
 				B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
 				B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
+				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
 				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
 			);

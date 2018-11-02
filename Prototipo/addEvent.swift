@@ -39,7 +39,7 @@ class addEvent: UITableViewController {
 
     @IBOutlet var personTab: UITableView!
     
-   override func tab
+//   override func tab
     
     override func viewDidLoad() {
         super.viewDidLoad()

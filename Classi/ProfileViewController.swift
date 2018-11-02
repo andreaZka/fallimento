@@ -12,7 +12,7 @@ class ProfileViewController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
 
-        @IBOutlet weak var Description: UITextView!
+        @IBOutlet weak var Description: UILabel!
     
     @IBOutlet weak var Eventi: UILabel!
     @IBOutlet weak var Medaglievinte: UILabel!
