@@ -31,64 +31,64 @@ class DettagliEventiViewController: UIViewController {
        
         switch segmentedControl.selectedSegmentIndex {
         case 0:
-            containerView1.alpha = 1
-            containerView2.alpha = 0
-            containerView3.alpha = 0
-            containerView4.alpha = 0
-            containerView5.alpha = 0
-            containerView6.alpha = 0
-            containerView7.alpha = 0
+            containerView1.isHidden = false
+            containerView2.isHidden = true
+            containerView3.isHidden = true
+            containerView4.isHidden = true
+            containerView5.isHidden = true
+            containerView6.isHidden = true
+            containerView7.isHidden = true
             
         case 1:
-            containerView1.alpha = 0
-            containerView2.alpha = 1
-            containerView3.alpha = 0
-            containerView4.alpha = 0
-            containerView5.alpha = 0
-            containerView6.alpha = 0
-            containerView7.alpha = 0
+            containerView1.isHidden = true
+            containerView2.isHidden = false
+            containerView3.isHidden = true
+            containerView4.isHidden = true
+            containerView5.isHidden = true
+            containerView6.isHidden = true
+            containerView7.isHidden = true
         case 2:
-            containerView1.alpha = 0
-            containerView2.alpha = 0
-            containerView3.alpha = 1
-            containerView4.alpha = 0
-            containerView5.alpha = 0
-            containerView6.alpha = 0
-            containerView7.alpha = 0
+            containerView1.isHidden = true
+            containerView2.isHidden = true
+            containerView3.isHidden = false
+            containerView4.isHidden = true
+            containerView5.isHidden = true
+            containerView6.isHidden = true
+            containerView7.isHidden = true
         case 3:
-            containerView1.alpha = 0
-            containerView2.alpha = 0
-            containerView3.alpha = 0
-            containerView4.alpha = 1
-            containerView5.alpha = 0
-            containerView6.alpha = 0
-            containerView7.alpha = 0
+            containerView1.isHidden = true
+            containerView2.isHidden = true
+            containerView3.isHidden = true
+            containerView4.isHidden = false
+            containerView5.isHidden = true
+            containerView6.isHidden = true
+            containerView7.isHidden = true
         case 4:
-            containerView1.alpha = 0
-            containerView2.alpha = 0
-            containerView3.alpha = 0
-            containerView4.alpha = 0
-            containerView5.alpha = 1
-            containerView6.alpha = 0
-            containerView7.alpha = 0
+            containerView1.isHidden = true
+            containerView2.isHidden = true
+            containerView3.isHidden = true
+            containerView4.isHidden = true
+            containerView5.isHidden = false
+            containerView6.isHidden = true
+            containerView7.isHidden = true
             
         case 5:
-            containerView1.alpha = 0
-            containerView2.alpha = 0
-            containerView3.alpha = 0
-            containerView4.alpha = 0
-            containerView5.alpha = 0
-            containerView6.alpha = 1
-            containerView7.alpha = 0
+            containerView1.isHidden = true
+            containerView2.isHidden = true
+            containerView3.isHidden = true
+            containerView4.isHidden = true
+            containerView5.isHidden = true
+            containerView6.isHidden = false
+            containerView7.isHidden = true
             
         case 6:
-            containerView1.alpha = 0
-            containerView2.alpha = 0
-            containerView3.alpha = 0
-            containerView4.alpha = 0
-            containerView5.alpha = 0
-            containerView6.alpha = 0
-            containerView7.alpha = 1
+            containerView1.isHidden = true
+            containerView2.isHidden = true
+            containerView3.isHidden = true
+            containerView4.isHidden = true
+            containerView5.isHidden = true
+            containerView6.isHidden = true
+            containerView7.isHidden = false
         default:
             break
         }
