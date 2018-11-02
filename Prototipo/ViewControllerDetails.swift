@@ -10,7 +10,7 @@ import UIKit
 
 class ViewControllerDetails: UIViewController {
     
-    //Prova modifica
+    //Prova modificatyffg
 
     @IBOutlet weak var navBar: UINavigationBar!
     var nome = ""
