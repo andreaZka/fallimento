@@ -1542,8 +1542,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wvt-X7-aYV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wvt-X7-aYV">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                                     <date key="date" timeIntervalSinceReferenceDate="562601916.13351202">
                                                         <!--2018-10-30 14:18:36 +0000-->
                                                     </date>
@@ -1551,6 +1551,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="wvt-X7-aYV" secondAttribute="trailing" id="0wA-qI-Pfy"/>
+                                                <constraint firstItem="wvt-X7-aYV" firstAttribute="top" secondItem="FS7-i6-OgW" secondAttribute="top" id="1aO-eP-WSt"/>
+                                                <constraint firstAttribute="bottom" secondItem="wvt-X7-aYV" secondAttribute="bottom" id="BRU-qX-9mb"/>
                                                 <constraint firstItem="wvt-X7-aYV" firstAttribute="leading" secondItem="FS7-i6-OgW" secondAttribute="leading" id="eoH-SV-0gz"/>
                                             </constraints>
                                         </tableViewCellContentView>
