@@ -68,8 +68,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetails" {
             if let indexPath = tabella.indexPathForSelectedRow {
-                let destination = segue.destination as! ViewControllerDetails
-                destination.nome = campi[indexPath.row]
+                let dest = segue.destination as! UINavigationController
+                if let destination = dest.children[0] as? ViewControllerDetails {
+                destination.nome = N_eventi[indexPath.row]
+                destination.tipolabello = campi[indexPath.row]
+                destination.imaginina = campiImage[indexPath.row]
+                }
             }
         }
     }
