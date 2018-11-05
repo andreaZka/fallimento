@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A719A5D4218A14410030E033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A719A5D2218A14410030E033 /* Main.storyboard */; };
+		A721EC10218F746A0047D65D /* Calendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721EC0F218F746A0047D65D /* Calendario.swift */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		A719A5D3218A14410030E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A721EC0F218F746A0047D65D /* Calendario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendario.swift; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		B04EF1C02188B72C00B28DAA /* Classi */ = {
 			isa = PBXGroup;
 			children = (
+				A721EC0F218F746A0047D65D /* Calendario.swift */,
 				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
 				B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */,
 				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
@@ -205,6 +208,7 @@
 				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
 				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
+				A721EC10218F746A0047D65D /* Calendario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -296,6 +296,7 @@
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ovk-r9-6jO">
                                 <rect key="frame" x="16" y="75" width="343" height="29"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="I5Q-lk-T6R"/>
                                     <constraint firstAttribute="width" secondItem="Ovk-r9-6jO" secondAttribute="height" multiplier="49:4" id="VgH-0t-9xK"/>
@@ -313,6 +314,7 @@
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="SwitchDay" destination="y0D-7Q-PXx" eventType="valueChanged" id="mjL-yQ-Jtg"/>
+                                    <action selector="calendarBar:" destination="y0D-7Q-PXx" eventType="valueChanged" id="tPV-Fm-qfZ"/>
                                 </connections>
                             </segmentedControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onl-uX-JQp">
@@ -490,6 +492,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="XBp-Vb-TaB"/>
                     <connections>
+                        <outlet property="calendarBar" destination="Ovk-r9-6jO" id="IOv-NX-3P7"/>
                         <outlet property="containerView1" destination="NN1-TB-vQp" id="R8J-Qy-tJH"/>
                         <outlet property="containerView2" destination="pzr-1c-adp" id="FeR-3t-zCx"/>
                         <outlet property="containerView3" destination="gDU-V0-emu" id="gLe-jf-4K1"/>
@@ -498,18 +501,34 @@
                         <outlet property="containerView6" destination="Qiw-CM-Qay" id="WaZ-bc-G6C"/>
                         <outlet property="containerView7" destination="HML-iR-pOr" id="zTw-S5-VJh"/>
                         <outlet property="segmentedControl" destination="Ovk-r9-6jO" id="M2n-eo-bbk"/>
+                        <segue destination="a8v-0D-ckS" kind="show" identifier="goCalendar" id="ksP-c1-iTW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLQ-VZ-zGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="981.60000000000002" y="1213.9430284857572"/>
         </scene>
+        <!--calendario-->
+        <scene sceneID="llh-V5-jTb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O8z-sT-AHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Calendar" title="calendario" id="a8v-0D-ckS" customClass="Calendario" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xh7-DH-SFX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="40z-a8-jDq"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1815" y="1207"/>
+        </scene>
         <!--View Controller Details-->
         <scene sceneID="t83-KN-q7z">
             <objects>
                 <viewController id="XQu-ge-rpF" customClass="ViewControllerDetails" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tcu-sU-E0N">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oup-4h-XhG">
@@ -1290,7 +1309,7 @@
             <objects>
                 <viewController id="LGU-7n-V2F" customClass="HomeViewController" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AV5-WU-6Ru">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleAspectFill" restorationIdentifier="Cell" alwaysBounceVertical="YES" minimumZoomScale="2" maximumZoomScale="2" dataMode="prototypes" style="plain" separatorInsetReference="fromAutomaticInsets" sectionIndexMinimumDisplayRowCount="5" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="csj-zw-jFZ">
@@ -1407,7 +1426,7 @@
         <scene sceneID="wXm-FD-wPY">
             <objects>
                 <tableViewController id="qe3-Wt-izP" customClass="addEvent" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jra-6D-tv0">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="5" sectionHeaderHeight="28" sectionFooterHeight="28" id="jra-6D-tv0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1470,17 +1489,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wvt-X7-aYV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                                <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wvt-X7-aYV">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <date key="date" timeIntervalSinceReferenceDate="562601916.13351202">
                                                         <!--2018-10-30 14:18:36 +0000-->
                                                     </date>
                                                 </datePicker>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="wvt-X7-aYV" secondAttribute="trailing" id="0wA-qI-Pfy"/>
-                                                <constraint firstItem="wvt-X7-aYV" firstAttribute="leading" secondItem="FS7-i6-OgW" secondAttribute="leading" id="eoH-SV-0gz"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -1494,14 +1510,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BUk-mz-xq1">
-                                                    <rect key="frame" x="5" y="6" width="296" height="30"/>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BUk-mz-xq1">
+                                                    <rect key="frame" x="15" y="3.5" width="113.5" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOt-iW-8lj">
-                                                    <rect key="frame" x="313" y="6" width="46" height="30"/>
+                                                    <rect key="frame" x="320" y="10" width="40" height="30"/>
                                                     <state key="normal" title="Insert"/>
                                                     <connections>
                                                         <action selector="mapButton:" destination="qe3-Wt-izP" eventType="touchUpInside" id="Xzn-Lo-vDv"/>
@@ -1509,9 +1526,7 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="pOt-iW-8lj" secondAttribute="trailing" constant="15" id="HRe-Lo-0nt"/>
-                                                <constraint firstItem="pOt-iW-8lj" firstAttribute="leading" secondItem="BUk-mz-xq1" secondAttribute="trailing" constant="15" id="KfS-XX-htx"/>
-                                                <constraint firstItem="BUk-mz-xq1" firstAttribute="leading" secondItem="Z9z-35-VzU" secondAttribute="leading" constant="15" id="dfj-s1-w4i"/>
+                                                <constraint firstItem="pOt-iW-8lj" firstAttribute="top" secondItem="Z9z-35-VzU" secondAttribute="top" constant="10" id="B6c-ax-uQA"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1522,11 +1537,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="B49-l1-wKU">
-                                                    <rect key="frame" x="0.0" y="-66" width="375" height="175"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="B49-l1-wKU">
+                                                    <rect key="frame" x="0.0" y="10" width="375" height="200"/>
                                                 </mapView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="B49-l1-wKU" firstAttribute="top" secondItem="bya-P6-Z8F" secondAttribute="top" id="B7V-4D-3Xe"/>
+                                                <constraint firstItem="B49-l1-wKU" firstAttribute="top" secondItem="bya-P6-Z8F" secondAttribute="top" constant="10" id="FEu-Yt-YYs"/>
+                                                <constraint firstItem="B49-l1-wKU" firstAttribute="leading" secondItem="bya-P6-Z8F" secondAttribute="leading" id="UNI-ys-LV4"/>
+                                                <constraint firstAttribute="bottom" secondItem="B49-l1-wKU" secondAttribute="bottom" constant="10" id="akZ-pB-LPb"/>
+                                                <constraint firstAttribute="trailing" secondItem="B49-l1-wKU" secondAttribute="trailing" id="eSb-6X-KVY"/>
+                                                <constraint firstAttribute="bottom" secondItem="B49-l1-wKU" secondAttribute="bottom" id="mmP-72-qQY"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -1584,13 +1606,13 @@
         <image name="magnifying-glass" width="51.200000762939453" height="51.200000762939453"/>
         <image name="man" width="405.09890747070312" height="405.09890747070312"/>
         <image name="medal-1" width="512" height="512"/>
-        <image name="paper" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="plus" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="paper" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="plus" width="102.40000152587891" height="102.40000152587891"/>
         <image name="population" width="488" height="488"/>
         <image name="star-2" width="409.60000610351562" height="409.60000610351562"/>
         <image name="tennis1" width="258" height="160"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Vax-ce-Ram"/>
+        <segue reference="V6f-O5-6yj"/>
     </inferredMetricsTieBreakers>
 </document>

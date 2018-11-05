@@ -19,13 +19,25 @@ class DettagliEventiViewController: UIViewController {
     @IBOutlet weak var containerView6: UIView! //sabato
     
     @IBOutlet weak var segmentedControl: UISegmentedControl!
+    var pressGesture = UILongPressGestureRecognizer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         segmentedControl.selectedSegmentIndex = 0
         SwitchDay()
-        
+//       pressGesture = UILongPressGestureRecognizer (target: self, action: #selector (showCalendar))
+//       segmentedControl.addGestureRecognizer(pressGesture)
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+/*    @objc func showCalendar() {
+        performSegue(withIdentifier: goCalendar, sender: self)
+    }
+  */
+    
     
     @IBAction func SwitchDay() {
        
