@@ -20,6 +20,10 @@ class ViewControllerDetails: UIViewController {
         navigationItem.title = nome
     }
     
+    
+        
+        
+    }
 
     /*
     // MARK: - Navigation
@@ -31,4 +35,4 @@ class ViewControllerDetails: UIViewController {
     }
     */
 
-}
+
