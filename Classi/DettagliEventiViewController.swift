@@ -107,6 +107,9 @@ class DettagliEventiViewController: UIViewController {
     }
     
 }
+
+
+
     
     /*
     // MARK: - Navigation
