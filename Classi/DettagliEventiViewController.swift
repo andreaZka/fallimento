@@ -19,28 +19,30 @@ class DettagliEventiViewController: UIViewController {
     @IBOutlet weak var containerView6: UIView! //sabato
     
     @IBOutlet weak var segmentedControl: UISegmentedControl!
-    var pressGesture = UILongPressGestureRecognizer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         segmentedControl.selectedSegmentIndex = 0
         SwitchDay()
-//       pressGesture = UILongPressGestureRecognizer (target: self, action: #selector (showCalendar))
-//       segmentedControl.addGestureRecognizer(pressGesture)
+        let pressGesture = UILongPressGestureRecognizer (target: self, action: #selector (showCalendar))
+        pressGesture.minimumPressDuration = 1.5
+        segmentedControl.addGestureRecognizer(pressGesture)
         // Do any additional setup after loading the view.
     }
     
     
     
     
-/*    @objc func showCalendar() {
-        performSegue(withIdentifier: goCalendar, sender: self)
+    @objc func showCalendar(sender: UIGestureRecognizer) {
+        if sender.state == .began {
+            performSegue(withIdentifier: "goCalendar", sender: self)
+        }
     }
-  */
+    
     
     
     @IBAction func SwitchDay() {
-       
+        
         switch segmentedControl.selectedSegmentIndex {
         case 0:
             containerView1.isHidden = false
@@ -106,21 +108,21 @@ class DettagliEventiViewController: UIViewController {
         }
     }
     
-//    ggghhgh
+    //    ggghhgh
 }
 
 
 
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destination.
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 
 
