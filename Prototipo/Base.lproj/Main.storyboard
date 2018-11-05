@@ -578,7 +578,7 @@
         <!--Calendar-->
         <scene sceneID="sIs-yH-5qP">
             <objects>
-                <viewController title="Calendar" id="aZ1-jB-Vat" sceneMemberID="viewController">
+                <viewController title="Calendar" id="aZ1-jB-Vat" customClass="Calendario" customModule="Prototipo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GS0-Xs-x45">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
