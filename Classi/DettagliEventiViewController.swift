@@ -106,6 +106,7 @@ class DettagliEventiViewController: UIViewController {
         }
     }
     
+//    ggghhgh
 }
 
 
