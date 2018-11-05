@@ -568,11 +568,27 @@
                         <outlet property="containerView6" destination="Qiw-CM-Qay" id="WaZ-bc-G6C"/>
                         <outlet property="containerView7" destination="HML-iR-pOr" id="zTw-S5-VJh"/>
                         <outlet property="segmentedControl" destination="Ovk-r9-6jO" id="M2n-eo-bbk"/>
+                        <segue destination="aZ1-jB-Vat" kind="show" identifier="goCalendar" id="rFN-BL-tJa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FLQ-VZ-zGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="981.60000000000002" y="1213.9430284857572"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="sIs-yH-5qP">
+            <objects>
+                <viewController title="Calendar" id="aZ1-jB-Vat" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GS0-Xs-x45">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EA2-NT-27J"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daO-9p-LHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1804" y="1214"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZtT-0d-lKB">
