@@ -40,10 +40,19 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! TableViewCell1
         
 //        cell..text = campi[indexPath.row]
+        
         cell.Name_event.text = N_eventi[indexPath.row]
         cell.image1.image = UIImage(named: campiImage[indexPath.row])
         cell.Type_ofSports.text = campi[indexPath.row]
         cell.Orario.text = Event_Date[indexPath.row]
+        // Configure the cell...
+        let maskLayer = CAShapeLayer()
+        let bounds = cell.bounds
+        maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath
+        cell.layer.mask = maskLayer
+        
+       
+    
         return cell
     }
     

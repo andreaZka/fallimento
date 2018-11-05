@@ -43,6 +43,11 @@ class Event3ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.image_event3.image = UIImage(named: campiImage3[indexPath.row])
         cell.type_event3.text = campi3[indexPath.row]
         cell.OR_event3.text = Event_Date3[indexPath.row]
+        // Configure the cell...
+        let maskLayer = CAShapeLayer()
+        let bounds = cell.bounds
+        maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath
+        cell.layer.mask = maskLayer
         return cell
     }
     

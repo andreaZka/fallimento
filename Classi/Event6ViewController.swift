@@ -43,6 +43,11 @@ class Event6ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.Image_E6.image = UIImage(named: campiImage6[indexPath.row])
         cell.Type_E6.text = campi6[indexPath.row]
         cell.Ora_E6.text = Event_Date6[indexPath.row]
+        // Configure the cell...
+        let maskLayer = CAShapeLayer()
+        let bounds = cell.bounds
+        maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath
+        cell.layer.mask = maskLayer
         return cell
     }
     

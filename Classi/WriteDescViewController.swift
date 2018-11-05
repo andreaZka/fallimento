@@ -11,19 +11,23 @@ import UIKit
 class WriteDescViewController: UIViewController {
     
     @IBOutlet weak var Text_desc: UITextView!
+    @IBOutlet weak var NAME: UITextField!
     
-
+    @IBOutlet weak var SURNAME: UITextField!
+    var namesur: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    /////// come trasferire file txt da classe ad altra
+    var space = " "
+    
+    
     
     @IBAction func Done(_ sender: Any) {
        // Description.text = Text_desc.text
-        
+        performSegue(withIdentifier: "unwindto", sender: self)
     }
     /*
     // MARK: - Navigation
@@ -35,4 +39,14 @@ class WriteDescViewController: UIViewController {
     }
     */
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "unwindto" {
+            namesur = NAME.text! + space + SURNAME.text!
+            if let dest = segue.destination as? ProfileViewController {
+                dest.desc = Text_desc.text
+                dest.namSur = namesur
+            }
+        }
+    }
+    
 }

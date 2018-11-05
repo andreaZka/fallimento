@@ -41,6 +41,11 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.image2.image = UIImage(named: campiImage2[indexPath.row])
         cell.TypeSport.text = campi2[indexPath.row]
         cell.orario.text = Event_Date2[indexPath.row]
+        // Configure the cell...
+        let maskLayer = CAShapeLayer()
+        let bounds = cell.bounds
+        maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath
+        cell.layer.mask = maskLayer
         return cell
     }
     

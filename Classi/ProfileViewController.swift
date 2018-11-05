@@ -22,6 +22,8 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var liveLabel: UILabel!
     
+    var desc: String?
+    var namSur: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,12 @@ class ProfileViewController: UIViewController {
         image.layer.cornerRadius =  image.frame.width/2.0
         image.clipsToBounds = true
 //        image.layer.bounds = CGRect(x: 0, y: 0, width: image.layer.frame.width / 2, height: image.layer.frame.height / 2)
+    }
+    
+    @IBAction func toto(segue:UIStoryboardSegue) {
+        Description.text = desc!
+        NomeCognome.text = namSur!
+        
     }
     
 

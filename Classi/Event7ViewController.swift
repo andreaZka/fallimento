@@ -43,6 +43,13 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.Image_E7.image = UIImage(named: campiImage7[indexPath.row])
         cell.type_E7.text = campi7[indexPath.row]
         cell.ora_E7.text = Event_Date7[indexPath.row]
+        // Configure the cell...
+        let maskLayer = CAShapeLayer()
+        let bounds = cell.bounds
+        maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath
+        cell.layer.mask = maskLayer
+        
+     
         return cell
     }
     
