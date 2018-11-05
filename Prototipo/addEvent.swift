@@ -72,17 +72,17 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
     
     
     
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        if indexPath.section == 4 {
-//            let cellIdentifier="rigaPerson"
-//            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-//            //            if nRighe >= indexPath.row{
-//            cell.textLabel?.text=persone[indexPath.row]
-//            //           }
-//            return cell
-//        }
-//        return super.tableView(tableView, cellForRowAt: indexPath)
-//    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if indexPath.section == 4 {
+            let cellIdentifier="rigaPerson"
+            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+            //            if nRighe >= indexPath.row{
+            cell.textLabel?.text=persone[indexPath.row]
+            //           }
+            return cell
+        }
+        return super.tableView(tableView, cellForRowAt: indexPath)
+    }
     
     //   override func tab
     
