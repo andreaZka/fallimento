@@ -1568,24 +1568,34 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BUk-mz-xq1">
-                                                    <rect key="frame" x="5" y="6" width="296" height="30"/>
-                                                    <nil key="textColor"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
-                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOt-iW-8lj">
-                                                    <rect key="frame" x="313" y="6" width="46" height="30"/>
-                                                    <state key="normal" title="Insert"/>
-                                                    <connections>
-                                                        <action selector="mapButton:" destination="qe3-Wt-izP" eventType="touchUpInside" id="Xzn-Lo-vDv"/>
-                                                    </connections>
-                                                </button>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="190" translatesAutoresizingMaskIntoConstraints="NO" id="mzH-jR-6HV">
+                                                    <rect key="frame" x="15" y="10" width="345" height="23.5"/>
+                                                    <subviews>
+                                                        <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BUk-mz-xq1">
+                                                            <rect key="frame" x="0.0" y="0.0" width="115" height="23.5"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOt-iW-8lj">
+                                                            <rect key="frame" x="305" y="0.0" width="40" height="23.5"/>
+                                                            <state key="normal" title="Insert"/>
+                                                            <connections>
+                                                                <action selector="mapButton:" destination="qe3-Wt-izP" eventType="touchUpInside" id="Xzn-Lo-vDv"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="BUk-mz-xq1" firstAttribute="leading" secondItem="mzH-jR-6HV" secondAttribute="leading" id="2Ow-jY-ihL"/>
+                                                        <constraint firstItem="pOt-iW-8lj" firstAttribute="leading" secondItem="BUk-mz-xq1" secondAttribute="trailing" constant="15" id="8Cx-9K-I0B"/>
+                                                    </constraints>
+                                                </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="pOt-iW-8lj" secondAttribute="trailing" constant="15" id="HRe-Lo-0nt"/>
-                                                <constraint firstItem="pOt-iW-8lj" firstAttribute="leading" secondItem="BUk-mz-xq1" secondAttribute="trailing" constant="15" id="KfS-XX-htx"/>
-                                                <constraint firstItem="BUk-mz-xq1" firstAttribute="leading" secondItem="Z9z-35-VzU" secondAttribute="leading" constant="15" id="dfj-s1-w4i"/>
+                                                <constraint firstAttribute="bottom" secondItem="mzH-jR-6HV" secondAttribute="bottom" constant="10" id="F5R-jJ-loa"/>
+                                                <constraint firstAttribute="trailing" secondItem="mzH-jR-6HV" secondAttribute="trailing" constant="15" id="Pgt-iJ-RAh"/>
+                                                <constraint firstItem="mzH-jR-6HV" firstAttribute="top" secondItem="Z9z-35-VzU" secondAttribute="top" constant="10" id="sUZ-gB-FJV"/>
+                                                <constraint firstItem="mzH-jR-6HV" firstAttribute="leading" secondItem="Z9z-35-VzU" secondAttribute="leading" constant="15" id="xh5-9g-1Fe"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1596,11 +1606,16 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="B49-l1-wKU">
-                                                    <rect key="frame" x="0.0" y="-66" width="375" height="175"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="B49-l1-wKU">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
                                                 </mapView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="B49-l1-wKU" firstAttribute="leading" secondItem="bya-P6-Z8F" secondAttribute="leading" id="TM9-AC-J3v"/>
+                                                <constraint firstAttribute="trailing" secondItem="B49-l1-wKU" secondAttribute="trailing" id="b9W-3f-wZs"/>
+                                                <constraint firstAttribute="bottom" secondItem="B49-l1-wKU" secondAttribute="bottom" id="fGr-zv-VFo"/>
+                                                <constraint firstItem="B49-l1-wKU" firstAttribute="top" secondItem="bya-P6-Z8F" secondAttribute="top" id="rH9-Jc-96n"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
