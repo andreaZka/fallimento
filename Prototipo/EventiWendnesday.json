@@ -1,0 +1,72 @@
+[
+ {
+    
+    "nome" : "Partita di Event4",
+    
+    "type" : "Tennis",
+    
+    "ora" : "18:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Bartololongo - Sporting Club",
+        "citta" : "San Giorgio a Cremano",
+        "lat" : 40.844729,
+        "lon" : 14.340696
+    },
+    
+    "description" : "Partita di Tennis. Siamo in 2, se vuole aggiungersi qualcuno possiamo fare anche 2v2. Portate 2-3 palline oltre alla racchetta.",
+ 
+ 
+    "image" : "tennis1.jpg"
+    
+ },
+    
+    {
+        
+        "nome" : "Partita di Volley",
+        "type" : "Volley",
+        "ora" : "16:30",
+        "posizione":{
+            "indirizzo":"Via Marilyn Monroe, 73, 80147 Napoli NA - Nuova Polisportiva Ponticelli",
+            "citta":"Napoli",
+            "lat": 40.84870,
+            "lon": 14.33263
+        },
+        "description" : "Siamo 3 amici e stiamo cercando altri ragazzi che vogliono divertirsi con noi a volley. Campo e pallone sono gentilmente offerti da noi. Vi aspettiamo.",
+        
+        "image" : "volley.jpg"
+        
+    },
+    {
+        
+        "nome" : "Partita di Calcio",
+        "type" : "Calcio",
+        "ora" : "22:00",
+        "posizione":{
+            "indirizzo":"Via Palazziello - Troise Soccer",
+            "citta":"Volla",
+            "lat": 40.87965,
+            "lon": 14.33071
+        },
+        "description" : "Partita organizzate da persone adulte. L'età media è di circa 50 anni. Siamo già in 4 e abbiamo l'intenzione di prenotare il campo da 7. Non cerchiamo la competizione, semplice divertimento. La quota è di €5. Le docce purtroppo non funzionano. Per altre info, contattatemi.",
+        
+        "image" : "soccer.jpg"
+        
+    },
+    {
+        
+        "nome":"Partita di Basket",
+        "type":"Basket",
+        "ora" : "18:30",
+        "posizione":{
+            "indirizzo":"Corso Domenico Ricciardi - Spianto",
+            "citta":"Cercola",
+            "lat": 40.859706,
+            "lon": 14.358213
+        },
+        "description" : "Siamo 8, vorremmo fare un bel numero e giocare con entrambe le metà campo piene. Per info contattatemi.",
+        
+        "image" : "basket1.jpg"
+        
+    }
+]

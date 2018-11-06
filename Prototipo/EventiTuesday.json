@@ -1,0 +1,56 @@
+[
+ {
+    
+    "nome" : "Partita di Event6",
+    
+    "type" : "Calcio",
+    
+    "ora" : "19:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Palazziello - Troise Soccer",
+        "citta" : "Volla",
+        "lat" : 40.87965,
+        "lon" : 14.33071
+    },
+    
+    "description" : "Partita 7, siamo già in 7 e vogliamo scontrarci con un altro team. La quota è di €5 e comprende anche una bottiglia d'acqua grande. Qualsiasi dubbio, contattatemi.",
+ 
+ 
+    "image" : "soccer.jpg"
+    
+ },
+    
+    {
+        
+        "nome" : "Partita di Volley femminile",
+        "type" : "Volley",
+        "ora" : "16:30",
+        "posizione":{
+            "indirizzo":"Via Marilyn Monroe, 73, 80147 Napoli NA - Nuova Polisportiva Ponticelli",
+            "citta":"Napoli",
+            "lat":40.84870,
+            "lon": 14.33263
+        },
+        "description" : "Partitella tra ragazze. La quota è di €5. Per info contattatemi.",
+        
+        "image" : "volley.jpg"
+        
+    },
+    {
+        
+        "nome":"Partita di Basket femminile",
+        "type":"Basket",
+        "ora" : "17:30",
+        "posizione":{
+            "indirizzo":"Via Argine, 927, 80147 Napoli NA",
+            "citta":"Napoli",
+            "lat":40.861221, 
+            "lon":14.335763
+        },
+        "description" : "Il campo sarà libero solo per 2 ore. L'idea è di formare due squadre da 5 e giocare a tutto campo. Qualora fossimo di meno, giocheremo a metà campo. Ricordo che gli spogliatoi sono disponibili solo per cambiarsi.",
+        
+        "image" : "volley.jpg"
+        
+    }
+]
