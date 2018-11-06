@@ -21,6 +21,9 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var stelle: FloatRatingView!
     
     @IBOutlet weak var liveLabel: UILabel!
+    @IBOutlet var donna: UIButton!
+    @IBOutlet var amicoUomo: UIButton!
+    
     
     var desc: String?
     var namSur: String?
