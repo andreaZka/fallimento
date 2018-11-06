@@ -14,7 +14,7 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var tabella: UITableView!
     
-    
+    var EVENTI = [event]()
     let campi7 = ["basket","calcio","tennis","pallavolo"]
     let campiImage7 = ["basket1","soccer","tennis1","volley"]
     let N_eventi7 = ["Partita di Event7","partita di andrea","Partita di zi rafel", "partita di mario"]
@@ -25,7 +25,7 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     //rorroorrororo
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return campi7.count
+        return EVENTI.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -39,10 +39,10 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! TableViewCell2
         
         //        cell..text = campi[indexPath.row]
-        cell.Name_E7.text = N_eventi7[indexPath.row]
-        cell.Image_E7.image = UIImage(named: campiImage7[indexPath.row])
-        cell.type_E7.text = campi7[indexPath.row]
-        cell.ora_E7.text = Event_Date7[indexPath.row]
+        cell.Name_E7.text = EVENTI[indexPath.row].nome
+        cell.Image_E7.image = UIImage(named: EVENTI[indexPath.row].image)
+        cell.type_E7.text = EVENTI[indexPath.row].type
+        cell.ora_E7.text = EVENTI[indexPath.row].ora
         // Configure the cell...
         let maskLayer = CAShapeLayer()
         let bounds = cell.bounds
@@ -59,8 +59,22 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tabella.separatorInset = UIEdgeInsets(top: 15.0, left: 0.0, bottom: 15.0, right: 0.0)
+        caricaDati()
     }
     
+    func caricaDati(){
+        do {
+            if let file = Bundle.main.url(forResource: "EventiThursday", withExtension: "json") {
+                let data = try Data(contentsOf: file)
+                self.EVENTI = try JSONDecoder().decode([event].self, from: data)
+                EVENTI = EVENTI.sorted(by: {$0.ora < $1.ora})
+                
+            }
+            print("dati caricati")
+        }catch {
+            print("Error")
+        }
+    }
     
     /*  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      if segue.identifier == "toDetails" {
@@ -74,4 +88,17 @@ class Event7ViewController: UIViewController, UITableViewDelegate, UITableViewDa
      }
      
      */
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetails" {
+            print("segue ok")
+            
+            if let indexPath = tabella.indexPathForSelectedRow {
+                let destination = segue.destination as! ViewControllerDetails
+                destination.nome = EVENTI[indexPath.row].nome
+                destination.tipolabello = EVENTI[indexPath.row].type
+                destination.imaginina = EVENTI[indexPath.row].image
+                destination.desc = EVENTI[indexPath.row].description
+            }
+        }
+    }
 }

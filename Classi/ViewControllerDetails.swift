@@ -16,15 +16,17 @@ class ViewControllerDetails: UIViewController {
     var nome = ""
     @IBOutlet weak var typeOf: UILabel!
     @IBOutlet weak var imaginetta: UIImageView!
+    @IBOutlet weak var Descriziona: UITextView!
     
     var tipolabello = ""
     var imaginina = ""
-    
+    var desc = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = nome
         typeOf.text = tipolabello
         imaginetta.image = UIImage(named: imaginina)
+        Descriziona.text = desc
     }
     
     
