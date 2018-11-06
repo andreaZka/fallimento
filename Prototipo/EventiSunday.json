@@ -1,0 +1,56 @@
+[
+ {
+    
+    "nome" : "Partita di Event3",
+    
+    "type" : "Basket",
+    
+    "ora" : "18:30",
+    
+    "posizione" : {
+        "indirizzo" : "Corso Domenico Ricciardi - Spianto",
+        "citta" : "Cercola",
+        "lat" : 40.859706,
+        "lon" : 14.358213
+    },
+    
+    "description" : "Partitella di Basket allo Spianto. Ricordo ai partecipanti che le luci sono disponibili fino alle 8:30, quindi non fate tardi!",
+ 
+ 
+    "image" : "basket1.jpg"
+    
+ },
+    
+    {
+        
+        "nome" : "Partita di Calcio",
+        "type" : "Calcio",
+        "ora" : "21:00",
+        "posizione":{
+            "indirizzo":"Via Bartololongo - Sporting Club",
+            "citta":"San Giorgio a Cremano",
+            "lat":40.844739,
+            "lon":14.340686
+        },
+        "description" : "Partita di calcio a 5. Ricordo che la quota di partecipazione è di €5. Non fate tardi perché alle 22:00 dobbiamo lasciare il campo. Per chi è interessato, le docce sono funzionanti ma manca l'asciugacapelli.",
+        
+        "image" : "soccer.jpg"
+        
+    },
+    {
+        
+        "nome" : "Torneo di Tennis 2v2",
+        "type" : "Tennis",
+        "ora" : "17:30",
+        "posizione":{
+            "indirizzo":"Via Bartololongo - Sporting Club",
+            "citta":"San Giorgio a Cremano",
+            "lat":40.844729,
+            "lon":14.340696
+        },
+        "description" : "Il Torneo è formato massimo da 4 squadre. Le partite sono composte da 3 set (al meglio di 3) e ogni è set è formato da 3 game. Oltre alla racchetta, portate almeno 3 palline.",
+        
+        "image" : "tennis1.jpg"
+        
+    }
+]

@@ -1,0 +1,61 @@
+[
+ {
+    
+    "nome" : "Partita di Event7",
+    
+    "type" : "Basket",
+    
+    "ora" : "18:30",
+    
+    "posizione" : {
+        "indirizzo" : "Corso Domenico Ricciardi - Spianto",
+        "citta" : "Cercola",
+        "lat" : 40.859706,
+        "lon" : 14.358213
+    },
+    
+    "description" : "Piccolo torneo di Basket allo Spianto. Vorrei farlo di almeno 8 squadre e decidere insieme a voi se mettere, o meno, un premio finale (magari un caffè pagato, dopo cena, tutti insieme). Ditemi cosa ne pensate in chat.",
+ 
+ 
+    "image" : "basket1.jpg"
+    
+ },
+    
+    {
+        
+        "nome" : "Partita di Volley",
+        "type" : "Volley",
+        "ora" : "16:30",
+        "posizione":{
+            "indirizzo":"Via Marilyn Monroe, 73, 80147 Napoli NA - Nuova Polisportiva Ponticelli",
+            "citta":"Napoli",
+            "lat": 40.84870,
+            "lon": 14.33263
+        },
+        "description" : "Siamo in 5 e stiamo cercando altri ragazzi che vogliono partecipare. La quota per affittare la palestra è €5 se siamo in 12 (numero perfetto per un'ora di divertimento). Contattatemi per altre informazioni.",
+        
+        "image" : "volley.jpg"
+        
+    },
+       {
+    
+    "nome" : "Partita di Calcio",
+    
+    "type" : "Calcio",
+    
+    "ora" : "20:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Palazziello - Troise Soccer",
+        "citta" : "Volla",
+        "lat" : 40.87965,
+        "lon" : 14.33071
+    },
+    
+    "description" : "Siamo in 3, e vorremmo giocare sul campo a 11. Nel caso fossimo meno di 22, possiamo sempre chiedere di spostarci su un campo più piccolo. La quota è di €5.",
+ 
+ 
+    "image" : "soccer.jpg"
+    
+ }
+]

@@ -14,6 +14,13 @@
 		A72455CD2190A84C00775F90 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CC2190A84C00775F90 /* MonthView.swift */; };
 		A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C712191A9C800DDFE1F /* invitePerson.swift */; };
 		A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C732191B64200DDFE1F /* SearchViewController.swift */; };
+		A73B36612191FB46006AF2C9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365A2191FB46006AF2C9 /* EventiSunday.json */; };
+		A73B36622191FB46006AF2C9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365B2191FB46006AF2C9 /* EventiTuesday.json */; };
+		A73B36632191FB46006AF2C9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365C2191FB46006AF2C9 /* EventiFriday.json */; };
+		A73B36642191FB46006AF2C9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365D2191FB46006AF2C9 /* EventiMonday.json */; };
+		A73B36652191FB46006AF2C9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365E2191FB46006AF2C9 /* EventiSaturday.json */; };
+		A73B36662191FB46006AF2C9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */; };
+		A73B36672191FB46006AF2C9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B36602191FB46006AF2C9 /* EventiThursday.json */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -31,13 +38,6 @@
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
 		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
 		B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
-		B05BD93B2191F66300E8CAE9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9342191F66300E8CAE9 /* EventiMonday.json */; };
-		B05BD93C2191F66300E8CAE9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9352191F66300E8CAE9 /* EventiFriday.json */; };
-		B05BD93D2191F66300E8CAE9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */; };
-		B05BD93E2191F66300E8CAE9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9372191F66300E8CAE9 /* EventiSunday.json */; };
-		B05BD93F2191F66300E8CAE9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9382191F66300E8CAE9 /* EventiTuesday.json */; };
-		B05BD9402191F66300E8CAE9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9392191F66300E8CAE9 /* EventiSaturday.json */; };
-		B05BD9412191F66300E8CAE9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD93A2191F66300E8CAE9 /* EventiThursday.json */; };
 		B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
 		B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B960FD2190F7C20094DDC9 /* Event.swift */; };
 		B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9610B2191DC5D0094DDC9 /* EventPin.swift */; };
@@ -53,6 +53,13 @@
 		A72455CC2190A84C00775F90 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		A73B1C712191A9C800DDFE1F /* invitePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitePerson.swift; sourceTree = "<group>"; };
 		A73B1C732191B64200DDFE1F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A73B365A2191FB46006AF2C9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSunday.json; sourceTree = "<group>"; };
+		A73B365B2191FB46006AF2C9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiTuesday.json; sourceTree = "<group>"; };
+		A73B365C2191FB46006AF2C9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiFriday.json; sourceTree = "<group>"; };
+		A73B365D2191FB46006AF2C9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiMonday.json; sourceTree = "<group>"; };
+		A73B365E2191FB46006AF2C9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
+		A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
+		A73B36602191FB46006AF2C9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -72,13 +79,6 @@
 		B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B05BD9342191F66300E8CAE9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiMonday.json; path = ../../jsonDays/EventiMonday.json; sourceTree = "<group>"; };
-		B05BD9352191F66300E8CAE9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiFriday.json; path = ../../jsonDays/EventiFriday.json; sourceTree = "<group>"; };
-		B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiWendnesday.json; path = ../../jsonDays/EventiWendnesday.json; sourceTree = "<group>"; };
-		B05BD9372191F66300E8CAE9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiSunday.json; path = ../../jsonDays/EventiSunday.json; sourceTree = "<group>"; };
-		B05BD9382191F66300E8CAE9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiTuesday.json; path = ../../jsonDays/EventiTuesday.json; sourceTree = "<group>"; };
-		B05BD9392191F66300E8CAE9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiSaturday.json; path = ../../jsonDays/EventiSaturday.json; sourceTree = "<group>"; };
-		B05BD93A2191F66300E8CAE9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiThursday.json; path = ../../jsonDays/EventiThursday.json; sourceTree = "<group>"; };
 		B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
 		B0B960FD2190F7C20094DDC9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		B0B9610B2191DC5D0094DDC9 /* EventPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPin.swift; sourceTree = "<group>"; };
@@ -156,13 +156,13 @@
 		B059067C21876A9800F52F7E /* Prototipo */ = {
 			isa = PBXGroup;
 			children = (
-				B05BD9352191F66300E8CAE9 /* EventiFriday.json */,
-				B05BD9342191F66300E8CAE9 /* EventiMonday.json */,
-				B05BD9392191F66300E8CAE9 /* EventiSaturday.json */,
-				B05BD9372191F66300E8CAE9 /* EventiSunday.json */,
-				B05BD93A2191F66300E8CAE9 /* EventiThursday.json */,
-				B05BD9382191F66300E8CAE9 /* EventiTuesday.json */,
-				B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */,
+				A73B365C2191FB46006AF2C9 /* EventiFriday.json */,
+				A73B365D2191FB46006AF2C9 /* EventiMonday.json */,
+				A73B365E2191FB46006AF2C9 /* EventiSaturday.json */,
+				A73B36602191FB46006AF2C9 /* EventiThursday.json */,
+				A73B365A2191FB46006AF2C9 /* EventiSunday.json */,
+				A73B365B2191FB46006AF2C9 /* EventiTuesday.json */,
+				A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */,
 				A719A5D2218A14410030E033 /* Main.storyboard */,
 				A73B1C712191A9C800DDFE1F /* invitePerson.swift */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
@@ -240,14 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05BD93C2191F66300E8CAE9 /* EventiFriday.json in Resources */,
-				B05BD93E2191F66300E8CAE9 /* EventiSunday.json in Resources */,
-				B05BD9412191F66300E8CAE9 /* EventiThursday.json in Resources */,
-				B05BD93B2191F66300E8CAE9 /* EventiMonday.json in Resources */,
-				B05BD93D2191F66300E8CAE9 /* EventiWendnesday.json in Resources */,
-				B05BD93F2191F66300E8CAE9 /* EventiTuesday.json in Resources */,
+				A73B36612191FB46006AF2C9 /* EventiSunday.json in Resources */,
+				A73B36642191FB46006AF2C9 /* EventiMonday.json in Resources */,
+				A73B36622191FB46006AF2C9 /* EventiTuesday.json in Resources */,
+				A73B36672191FB46006AF2C9 /* EventiThursday.json in Resources */,
+				A73B36632191FB46006AF2C9 /* EventiFriday.json in Resources */,
+				A73B36652191FB46006AF2C9 /* EventiSaturday.json in Resources */,
+				A73B36662191FB46006AF2C9 /* EventiWendnesday.json in Resources */,
 				A719A5D4218A14410030E033 /* Main.storyboard in Resources */,
-				B05BD9402191F66300E8CAE9 /* EventiSaturday.json in Resources */,
 				B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */,
 				B059068721876A9800F52F7E /* Assets.xcassets in Resources */,
 			);

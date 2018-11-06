@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -225,7 +225,7 @@
                                 <rect key="frame" x="0.0" y="140" width="375" height="691"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NN1-TB-vQp">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="NN1-TB-vQp" secondAttribute="height" multiplier="75:112" id="k1d-ji-100"/>
                                         </constraints>
@@ -234,7 +234,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzr-1c-adp">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="pzr-1c-adp" secondAttribute="height" multiplier="75:112" id="Ccz-ny-RZs"/>
                                         </constraints>
@@ -243,7 +243,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqM-Dn-Zsq">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="kqM-Dn-Zsq" secondAttribute="height" multiplier="75:112" id="7dW-r9-g0d"/>
                                         </constraints>
@@ -252,7 +252,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMH-Xx-b1t">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="GMH-Xx-b1t" secondAttribute="height" multiplier="75:112" id="vOd-GN-Btq"/>
                                         </constraints>
@@ -261,7 +261,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qiw-CM-Qay">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Qiw-CM-Qay" secondAttribute="height" multiplier="75:112" id="CLR-t7-3OW"/>
                                         </constraints>
@@ -270,7 +270,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDU-V0-emu">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gDU-V0-emu" secondAttribute="height" multiplier="75:112" id="KTK-J5-vWd"/>
                                         </constraints>
@@ -279,7 +279,7 @@
                                         </connections>
                                     </containerView>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HML-iR-pOr">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="560"/>
+                                        <rect key="frame" x="0.0" y="39" width="375" height="560"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="HML-iR-pOr" secondAttribute="height" multiplier="75:112" id="YUQ-Ry-MDX"/>
                                         </constraints>
@@ -1463,10 +1463,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle="Section-1" id="d1A-RN-hxA">
+                            <tableViewSection id="d1A-RN-hxA">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="b87-QD-dbC">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b87-QD-dbC" id="rNc-pB-mTZ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1488,7 +1488,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="95" id="Pw6-xl-rZn">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="95"/>
+                                        <rect key="frame" x="0.0" y="44" width="375" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pw6-xl-rZn" id="Ieo-IC-i8s">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="94.5"/>
@@ -1511,10 +1511,10 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Section-2" id="9if-U1-L0e">
+                            <tableViewSection headerTitle="Set date/time" id="9if-U1-L0e">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="xjf-PV-bcd">
-                                        <rect key="frame" x="0.0" y="195" width="375" height="100"/>
+                                        <rect key="frame" x="0.0" y="167" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xjf-PV-bcd" id="FS7-i6-OgW">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
@@ -1540,7 +1540,7 @@
                             <tableViewSection headerTitle="Place" id="JId-U6-bPA">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Bli-Bq-DYB">
-                                        <rect key="frame" x="0.0" y="323" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="295" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bli-Bq-DYB" id="Z9z-35-VzU">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1583,7 +1583,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Mb0-ez-nmK">
-                                        <rect key="frame" x="0.0" y="367" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="339" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mb0-ez-nmK" id="bya-P6-Z8F">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1603,10 +1603,10 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Section-4" id="Int-Y9-3DS">
+                            <tableViewSection headerTitle="Invite person" id="Int-Y9-3DS">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="5ya-hf-kNQ">
-                                        <rect key="frame" x="0.0" y="439" width="375" height="163"/>
+                                        <rect key="frame" x="0.0" y="411" width="375" height="163"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5ya-hf-kNQ" id="2ct-ue-3aE">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="162.5"/>
@@ -2139,7 +2139,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fototessere" translatesAutoresizingMaskIntoConstraints="NO" id="T33-uC-q8Q">
-                                <rect key="frame" x="0.0" y="112" width="207" height="126"/>
+                                <rect key="frame" x="0.0" y="112" width="207" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="207" id="P2q-wv-xvA"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="tZH-sn-K4W"/>
@@ -2285,7 +2285,7 @@
                                 </constraints>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Hi, i'm Georgina and i love every sport. " translatesAutoresizingMaskIntoConstraints="NO" id="RyN-gC-bQh">
-                                <rect key="frame" x="0.0" y="337" width="375" height="281"/>
+                                <rect key="frame" x="0.0" y="337" width="375" height="355"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="Ggq-wF-jAo"/>
@@ -2549,19 +2549,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Fototessera-stati-uniti" width="627" height="662"/>
-        <image name="avatar" width="32" height="32"/>
-        <image name="award" width="320" height="320"/>
-        <image name="favourites" width="512" height="512"/>
-        <image name="fototessera-casalboni-fotokino-riccione-1" width="103" height="100"/>
-        <image name="fototessere" width="75" height="100"/>
-        <image name="house-2" width="32" height="32"/>
-        <image name="magnifying-glass" width="32" height="32"/>
-        <image name="medal-1" width="256" height="256"/>
-        <image name="paper" width="64" height="64"/>
-        <image name="plus" width="64" height="64"/>
-        <image name="population" width="244" height="244"/>
-        <image name="star-2" width="512" height="512"/>
+        <image name="Fototessera-stati-uniti" width="150.47999572753906" height="158.8800048828125"/>
+        <image name="avatar" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="award" width="640" height="640"/>
+        <image name="favourites" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="fototessera-casalboni-fotokino-riccione-1" width="154.5" height="150.75"/>
+        <image name="fototessere" width="150" height="200"/>
+        <image name="house-2" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="magnifying-glass" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="medal-1" width="512" height="512"/>
+        <image name="paper" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="plus" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="population" width="488" height="488"/>
+        <image name="star-2" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="V6f-O5-6yj"/>

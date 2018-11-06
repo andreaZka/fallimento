@@ -1,0 +1,45 @@
+[
+ {
+    
+    "nome" : "Partita di Event",
+    
+    "type" : "Calcio",
+    
+    "ora" : "19:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Palazziello - Troise Soccer",
+        "citta" : "Volla",
+        "lat" : 40.87965,
+        "lon" : 14.33071
+    },
+    
+    "description" : "Siamo già in 3 e volevamo giocare sul campo a 5. Stavamo pensando di giocarci una pizza come premio finale. Se l'idea non vi piace, contattatemi, lasceremo scegliere alla maggioranza. Quota €5.",
+ 
+ 
+    "image" : "soccer.jpg"
+    
+ },
+    
+   {
+    
+    "nome" : "Partita di Tennis Femminile 2v2",
+    
+    "type" : "Tennis",
+    
+    "ora" : "19:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Bartololongo - Sporting Club",
+        "citta" : "San Giorgio a Cremano",
+        "lat" : 40.844729,
+        "lon" : 14.340696
+    },
+    
+    "description" : "Partita di Tennis 2v2. Siamo già in 2. Se siamo più di 4, possiamo anche fare un mini torneo. Se vi va, possiamo anche prenderci un caffè a fine partita al bar che sta dentro il centro. La quota è di €5. Per altre info contattatemi.",
+ 
+ 
+    "image" : "tennis1.jpg"
+    
+ }
+]

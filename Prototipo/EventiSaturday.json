@@ -1,0 +1,61 @@
+[
+ {
+    
+    "nome" : "Partita di Home",
+    
+    "type" : "Basket",
+    
+    "ora" : "19:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Argine, 927, 80147 Napoli NA",
+        "citta" : "Napoli",
+        "lat" : 40.861221,
+        "lon" : 14.335763
+    },
+    
+    "description" : "L'orario di fine evento è previsto per le 21:00, perché c'è l'allenamento di una squadra. Cerchiamo di lasciare gli spogliatoi in buono stato. La quota d'affitto è di €30. Se riuscissimo ad esserne giusto 10, ci divertiamo a tutto campo.",
+ 
+ 
+    "image" : "basket1.jpg"
+    
+ },
+    
+     {
+        
+        "nome" : "Partita di Volley femminile",
+        "type" : "Volley",
+        "ora" : "16:30",
+        "posizione":{
+            "indirizzo":"Via Filichito, 80040 - Vittorio De sica",
+            "citta":"Volla",
+            "lat":40.884828,
+            "lon": 14.350402
+        },
+        "description" : "Partita di volley tra ragazze. La quota è di €3 se riuscissimo ad esserne perfettamente 12. Per altre info contattatemi.",
+        
+        "image" : "volley.jpg"
+        
+    },
+     {
+    
+    "nome" : "Partita di Calcio",
+    
+    "type" : "Calcio",
+    
+    "ora" : "20:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Palazziello - Troise Soccer",
+        "citta" : "Volla",
+        "lat" : 40.87965,
+        "lon" : 14.33071
+    },
+    
+    "description" : "Cerchiamo di fare numero utile per prenotare il campo da 7. La quota è di €5.",
+ 
+ 
+    "image" : "soccer.jpg"
+    
+ }
+]

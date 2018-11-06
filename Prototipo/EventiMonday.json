@@ -1,0 +1,40 @@
+[
+ {
+    
+    "nome" : "Partita di Event5",
+    
+    "type" : "Calcio",
+    
+    "ora" : "11:30",
+    
+    "posizione" : {
+        "indirizzo" : "Via Bartololongo - Sporting Club",
+        "citta" : "San Giorgio a Cremano",
+        "lat" : 40.844739,
+        "lon" : 14.340686
+    },
+    
+    "description" : "Partita mattutina per un bel risveglio muscolare. Sto cercando di organizzare il campo da 7. La quota è da €5 e se vogliamo, possiamo pranzare anche insieme a fine partita. Contattatemi per altre informazioni.",
+ 
+ 
+    "image" : "soccer.jpg"
+    
+ },
+    
+  {
+        
+        "nome" : "Torneo di Tennis 2v2",
+        "type" : "Tennis",
+        "ora" : "17:30",
+        "posizione":{
+            "indirizzo":"Via Bartololongo - Sporting Club",
+            "citta":"San Giorgio a Cremano",
+            "lat":40.844729,
+            "lon":14.340696
+        },
+        "description" : "Sto cercando di organizzare un torneo massimo da 8 squadre. Le partite vorrei farle da 5 set (al meglio di 5) e per ogni set, fare 8 game. Oltre alla racchetta, portate almeno 5 palline.",
+        
+        "image" : "tennis1.jpg"
+        
+    }
+]
