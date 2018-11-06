@@ -13,10 +13,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var tabella: UITableView!
     
     var EVENTI = [event]()
-    let campi2 = ["basket","calcio","tennis","pallavolo"]
-    let campiImage2 = ["basket1","soccer","tennis1","volley"]
-    let N_eventi2 = ["Partita di Event","partita di andrea","Partita di zi rafel", "partita di mario"]
-    let Event_Date2 = ["10:00","12:30","15:00","21:00"]
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

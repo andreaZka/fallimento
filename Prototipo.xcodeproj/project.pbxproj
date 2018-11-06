@@ -1,485 +1,489 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 50;
+    objects = {
 
 /* Begin PBXBuildFile section */
-		A719A5D4218A14410030E033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A719A5D2218A14410030E033 /* Main.storyboard */; };
-		A721EC10218F746A0047D65D /* Calendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721EC0F218F746A0047D65D /* Calendario.swift */; };
-		A72455C92190A81600775F90 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455C82190A81600775F90 /* CalenderView.swift */; };
-		A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CA2190A81C00775F90 /* WeekdaysView.swift */; };
-		A72455CD2190A84C00775F90 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CC2190A84C00775F90 /* MonthView.swift */; };
-		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
-		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
-		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
-		B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C32188C34800B28DAA /* EventViewController.swift */; };
-		B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */; };
-		B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */; };
-		B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */; };
-		B052D464218B688200123A0A /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D463218B688200123A0A /* TableViewCell2.swift */; };
-		B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D465218B6DC400123A0A /* Event3ViewController.swift */; };
-		B052D468218B714400123A0A /* Event4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D467218B714400123A0A /* Event4ViewController.swift */; };
-		B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D469218B715500123A0A /* Event5ViewController.swift */; };
-		B052D46C218B715F00123A0A /* Event6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D46B218B715F00123A0A /* Event6ViewController.swift */; };
-		B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D46D218B716E00123A0A /* Event7ViewController.swift */; };
-		B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
-		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
-		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
-		B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
-		B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059069121876C3B00F52F7E /* SearchViewController.swift */; };
-		B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
-		B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FB2190F7910094DDC9 /* EventiSaturday.json */; };
-		B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B960FD2190F7C20094DDC9 /* Event.swift */; };
-		B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FF21910CB80094DDC9 /* EventiThursday.json */; };
-		B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610021910CB80094DDC9 /* EventiTuesday.json */; };
-		B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610121910CB80094DDC9 /* EventiWendnesday.json */; };
-		B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610221910CB80094DDC9 /* EventiFriday.json */; };
-		B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610321910CB80094DDC9 /* EventiMonday.json */; };
-		B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610421910CB80094DDC9 /* EventiSunday.json */; };
-		B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9610B2191DC5D0094DDC9 /* EventPin.swift */; };
-		B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9610E2191DCF90094DDC9 /* MapKit.framework */; };
-		B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B961102191DF9B0094DDC9 /* MapViewController.swift */; };
+        A719A5D4218A14410030E033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A719A5D2218A14410030E033 /* Main.storyboard */; };
+        A721EC10218F746A0047D65D /* Calendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721EC0F218F746A0047D65D /* Calendario.swift */; };
+        A72455C92190A81600775F90 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455C82190A81600775F90 /* CalenderView.swift */; };
+        A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CA2190A81C00775F90 /* WeekdaysView.swift */; };
+        A72455CD2190A84C00775F90 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CC2190A84C00775F90 /* MonthView.swift */; };
+        A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C712191A9C800DDFE1F /* invitePerson.swift */; };
+        A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C732191B64200DDFE1F /* SearchViewController.swift */; };
+        A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
+        B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
+        B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
+        B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C32188C34800B28DAA /* EventViewController.swift */; };
+        B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */; };
+        B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */; };
+        B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */; };
+        B052D464218B688200123A0A /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D463218B688200123A0A /* TableViewCell2.swift */; };
+        B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D465218B6DC400123A0A /* Event3ViewController.swift */; };
+        B052D468218B714400123A0A /* Event4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D467218B714400123A0A /* Event4ViewController.swift */; };
+        B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D469218B715500123A0A /* Event5ViewController.swift */; };
+        B052D46C218B715F00123A0A /* Event6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D46B218B715F00123A0A /* Event6ViewController.swift */; };
+        B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052D46D218B716E00123A0A /* Event7ViewController.swift */; };
+        B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059067D21876A9800F52F7E /* AppDelegate.swift */; };
+        B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
+        B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
+        B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
+        B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
+        B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FB2190F7910094DDC9 /* EventiSaturday.json */; };
+        B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B960FD2190F7C20094DDC9 /* Event.swift */; };
+        B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FF21910CB80094DDC9 /* EventiThursday.json */; };
+        B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610021910CB80094DDC9 /* EventiTuesday.json */; };
+        B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610121910CB80094DDC9 /* EventiWendnesday.json */; };
+        B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610221910CB80094DDC9 /* EventiFriday.json */; };
+        B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610321910CB80094DDC9 /* EventiMonday.json */; };
+        B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610421910CB80094DDC9 /* EventiSunday.json */; };
+        B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9610B2191DC5D0094DDC9 /* EventPin.swift */; };
+        B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9610E2191DCF90094DDC9 /* MapKit.framework */; };
+        B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B961102191DF9B0094DDC9 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A719A5D3218A14410030E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A721EC0F218F746A0047D65D /* Calendario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendario.swift; sourceTree = "<group>"; };
-		A72455C82190A81600775F90 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
-		A72455CA2190A81C00775F90 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
-		A72455CC2190A84C00775F90 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
-		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
-		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
-		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
-		B04EF1C32188C34800B28DAA /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = Classi/EventViewController.swift; sourceTree = SOURCE_ROOT; };
-		B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
-		B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
-		B052D463218B688200123A0A /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
-		B052D465218B6DC400123A0A /* Event3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event3ViewController.swift; sourceTree = "<group>"; };
-		B052D467218B714400123A0A /* Event4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event4ViewController.swift; sourceTree = "<group>"; };
-		B052D469218B715500123A0A /* Event5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event5ViewController.swift; sourceTree = "<group>"; };
-		B052D46B218B715F00123A0A /* Event6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event6ViewController.swift; sourceTree = "<group>"; };
-		B052D46D218B716E00123A0A /* Event7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event7ViewController.swift; sourceTree = "<group>"; };
-		B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B059068121876A9800F52F7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B059069121876C3B00F52F7E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
-		B0B960FB2190F7910094DDC9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
-		B0B960FD2190F7C20094DDC9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		B0B960FF21910CB80094DDC9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
-		B0B9610021910CB80094DDC9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiTuesday.json; sourceTree = "<group>"; };
-		B0B9610121910CB80094DDC9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
-		B0B9610221910CB80094DDC9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiFriday.json; sourceTree = "<group>"; };
-		B0B9610321910CB80094DDC9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiMonday.json; sourceTree = "<group>"; };
-		B0B9610421910CB80094DDC9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSunday.json; sourceTree = "<group>"; };
-		B0B9610B2191DC5D0094DDC9 /* EventPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPin.swift; sourceTree = "<group>"; };
-		B0B9610E2191DCF90094DDC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		B0B961102191DF9B0094DDC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+        A719A5D3218A14410030E033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+        A721EC0F218F746A0047D65D /* Calendario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendario.swift; sourceTree = "<group>"; };
+        A72455C82190A81600775F90 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+        A72455CA2190A81C00775F90 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+        A72455CC2190A84C00775F90 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+        A73B1C712191A9C800DDFE1F /* invitePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitePerson.swift; sourceTree = "<group>"; };
+        A73B1C732191B64200DDFE1F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+        A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
+        B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
+        B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
+        B04EF1C32188C34800B28DAA /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = Classi/EventViewController.swift; sourceTree = SOURCE_ROOT; };
+        B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+        B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+        B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+        B052D463218B688200123A0A /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+        B052D465218B6DC400123A0A /* Event3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event3ViewController.swift; sourceTree = "<group>"; };
+        B052D467218B714400123A0A /* Event4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event4ViewController.swift; sourceTree = "<group>"; };
+        B052D469218B715500123A0A /* Event5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event5ViewController.swift; sourceTree = "<group>"; };
+        B052D46B218B715F00123A0A /* Event6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event6ViewController.swift; sourceTree = "<group>"; };
+        B052D46D218B716E00123A0A /* Event7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event7ViewController.swift; sourceTree = "<group>"; };
+        B059067A21876A9800F52F7E /* Prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        B059067D21876A9800F52F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        B059068121876A9800F52F7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+        B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
+        B0B960FB2190F7910094DDC9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
+        B0B960FD2190F7C20094DDC9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+        B0B960FF21910CB80094DDC9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
+        B0B9610021910CB80094DDC9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiTuesday.json; sourceTree = "<group>"; };
+        B0B9610121910CB80094DDC9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
+        B0B9610221910CB80094DDC9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiFriday.json; sourceTree = "<group>"; };
+        B0B9610321910CB80094DDC9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiMonday.json; sourceTree = "<group>"; };
+        B0B9610421910CB80094DDC9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSunday.json; sourceTree = "<group>"; };
+        B0B9610B2191DC5D0094DDC9 /* EventPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPin.swift; sourceTree = "<group>"; };
+        B0B9610E2191DCF90094DDC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+        B0B961102191DF9B0094DDC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B059067721876A9800F52F7E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        B059067721876A9800F52F7E /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A72455C72190A7AC00775F90 /* MioCalendario */ = {
-			isa = PBXGroup;
-			children = (
-				A72455C82190A81600775F90 /* CalenderView.swift */,
-				A72455CA2190A81C00775F90 /* WeekdaysView.swift */,
-				A72455CC2190A84C00775F90 /* MonthView.swift */,
-			);
-			path = MioCalendario;
-			sourceTree = "<group>";
-		};
-		B04EF1C02188B72C00B28DAA /* Classi */ = {
-			isa = PBXGroup;
-			children = (
-				B0B9610B2191DC5D0094DDC9 /* EventPin.swift */,
-				B0B960FD2190F7C20094DDC9 /* Event.swift */,
-				A721EC0F218F746A0047D65D /* Calendario.swift */,
-				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
-				B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */,
-				B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */,
-				B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
-				B059068121876A9800F52F7E /* HomeViewController.swift */,
-				B04EF1C32188C34800B28DAA /* EventViewController.swift */,
-				B052D465218B6DC400123A0A /* Event3ViewController.swift */,
-				B052D467218B714400123A0A /* Event4ViewController.swift */,
-				B052D469218B715500123A0A /* Event5ViewController.swift */,
-				B052D46B218B715F00123A0A /* Event6ViewController.swift */,
-				B052D46D218B716E00123A0A /* Event7ViewController.swift */,
-				B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
-				B052D463218B688200123A0A /* TableViewCell2.swift */,
-				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
+        A72455C72190A7AC00775F90 /* MioCalendario */ = {
+            isa = PBXGroup;
+            children = (
+                A72455C82190A81600775F90 /* CalenderView.swift */,
+                A72455CA2190A81C00775F90 /* WeekdaysView.swift */,
+                A72455CC2190A84C00775F90 /* MonthView.swift */,
+            );
+            path = MioCalendario;
+            sourceTree = "<group>";
+        };
+        B04EF1C02188B72C00B28DAA /* Classi */ = {
+            isa = PBXGroup;
+            children = (
+                B0B9610B2191DC5D0094DDC9 /* EventPin.swift */,
+                B0B960FD2190F7C20094DDC9 /* Event.swift */,
+                A721EC0F218F746A0047D65D /* Calendario.swift */,
+                B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
+                B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */,
+                B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */,
+                B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */,
+                B059068121876A9800F52F7E /* HomeViewController.swift */,
+                B04EF1C32188C34800B28DAA /* EventViewController.swift */,
+                B052D465218B6DC400123A0A /* Event3ViewController.swift */,
+                B052D467218B714400123A0A /* Event4ViewController.swift */,
+                B052D469218B715500123A0A /* Event5ViewController.swift */,
+                B052D46B218B715F00123A0A /* Event6ViewController.swift */,
+                B052D46D218B716E00123A0A /* Event7ViewController.swift */,
+                B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
+                B052D463218B688200123A0A /* TableViewCell2.swift */,
+                B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B0B961102191DF9B0094DDC9 /* MapViewController.swift */,
-			);
-			path = Classi;
-			sourceTree = "<group>";
-		};
-		B059067121876A9800F52F7E = {
-			isa = PBXGroup;
-			children = (
-				A72455C72190A7AC00775F90 /* MioCalendario */,
-				B04EF1C02188B72C00B28DAA /* Classi */,
-				B059067C21876A9800F52F7E /* Prototipo */,
-				B059067B21876A9800F52F7E /* Products */,
-				B0B9610D2191DCF90094DDC9 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		B059067B21876A9800F52F7E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B059067A21876A9800F52F7E /* Prototipo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B059067C21876A9800F52F7E /* Prototipo */ = {
-			isa = PBXGroup;
-			children = (
-				A719A5D2218A14410030E033 /* Main.storyboard */,
-				B0B9610221910CB80094DDC9 /* EventiFriday.json */,
-				B0B9610321910CB80094DDC9 /* EventiMonday.json */,
-				B0B9610421910CB80094DDC9 /* EventiSunday.json */,
-				B0B960FF21910CB80094DDC9 /* EventiThursday.json */,
-				B0B9610021910CB80094DDC9 /* EventiTuesday.json */,
-				B0B9610121910CB80094DDC9 /* EventiWendnesday.json */,
-				B0B960FB2190F7910094DDC9 /* EventiSaturday.json */,
-				B059067D21876A9800F52F7E /* AppDelegate.swift */,
-				B059069121876C3B00F52F7E /* SearchViewController.swift */,
-				B059068B21876A9800F52F7E /* Info.plist */,
-				A7F614A42188C1ED00D3414B /* addEvent.swift */,
-				B059068621876A9800F52F7E /* Assets.xcassets */,
-				B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
-			);
-			path = Prototipo;
-			sourceTree = "<group>";
-		};
-		B0B9610D2191DCF90094DDC9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B0B9610E2191DCF90094DDC9 /* MapKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
+				A73B1C732191B64200DDFE1F /* SearchViewController.swift */,
+            );
+            path = Classi;
+            sourceTree = "<group>";
+        };
+        B059067121876A9800F52F7E = {
+            isa = PBXGroup;
+            children = (
+                A72455C72190A7AC00775F90 /* MioCalendario */,
+                B04EF1C02188B72C00B28DAA /* Classi */,
+                B059067C21876A9800F52F7E /* Prototipo */,
+                B059067B21876A9800F52F7E /* Products */,
+                B0B9610D2191DCF90094DDC9 /* Frameworks */,
+            );
+            sourceTree = "<group>";
+        };
+        B059067B21876A9800F52F7E /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                B059067A21876A9800F52F7E /* Prototipo.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        B059067C21876A9800F52F7E /* Prototipo */ = {
+            isa = PBXGroup;
+            children = (
+                A719A5D2218A14410030E033 /* Main.storyboard */,
+                A73B1C712191A9C800DDFE1F /* invitePerson.swift */,
+                B0B9610221910CB80094DDC9 /* EventiFriday.json */,
+                B0B9610321910CB80094DDC9 /* EventiMonday.json */,
+                B0B9610421910CB80094DDC9 /* EventiSunday.json */,
+                B0B960FF21910CB80094DDC9 /* EventiThursday.json */,
+                B0B9610021910CB80094DDC9 /* EventiTuesday.json */,
+                B0B9610121910CB80094DDC9 /* EventiWendnesday.json */,
+                B0B960FB2190F7910094DDC9 /* EventiSaturday.json */,
+                B059067D21876A9800F52F7E /* AppDelegate.swift */,
+                B059068B21876A9800F52F7E /* Info.plist */,
+                A7F614A42188C1ED00D3414B /* addEvent.swift */,
+                B059068621876A9800F52F7E /* Assets.xcassets */,
+                B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
+            );
+            path = Prototipo;
+            sourceTree = "<group>";
+        };
+        B0B9610D2191DCF90094DDC9 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                B0B9610E2191DCF90094DDC9 /* MapKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B059067921876A9800F52F7E /* Prototipo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B059068E21876A9800F52F7E /* Build configuration list for PBXNativeTarget "Prototipo" */;
-			buildPhases = (
-				B059067621876A9800F52F7E /* Sources */,
-				B059067721876A9800F52F7E /* Frameworks */,
-				B059067821876A9800F52F7E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Prototipo;
-			productName = Prototipo;
-			productReference = B059067A21876A9800F52F7E /* Prototipo.app */;
-			productType = "com.apple.product-type.application";
-		};
+        B059067921876A9800F52F7E /* Prototipo */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = B059068E21876A9800F52F7E /* Build configuration list for PBXNativeTarget "Prototipo" */;
+            buildPhases = (
+                B059067621876A9800F52F7E /* Sources */,
+                B059067721876A9800F52F7E /* Frameworks */,
+                B059067821876A9800F52F7E /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Prototipo;
+            productName = Prototipo;
+            productReference = B059067A21876A9800F52F7E /* Prototipo.app */;
+            productType = "com.apple.product-type.application";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B059067221876A9800F52F7E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Sergio Solmonte";
-				TargetAttributes = {
-					B059067921876A9800F52F7E = {
-						CreatedOnToolsVersion = 10.0;
-					};
-				};
-			};
-			buildConfigurationList = B059067521876A9800F52F7E /* Build configuration list for PBXProject "Prototipo" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = B059067121876A9800F52F7E;
-			productRefGroup = B059067B21876A9800F52F7E /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B059067921876A9800F52F7E /* Prototipo */,
-			);
-		};
+        B059067221876A9800F52F7E /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1000;
+                LastUpgradeCheck = 1000;
+                ORGANIZATIONNAME = "Sergio Solmonte";
+                TargetAttributes = {
+                    B059067921876A9800F52F7E = {
+                        CreatedOnToolsVersion = 10.0;
+                    };
+                };
+            };
+            buildConfigurationList = B059067521876A9800F52F7E /* Build configuration list for PBXProject "Prototipo" */;
+            compatibilityVersion = "Xcode 9.3";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = B059067121876A9800F52F7E;
+            productRefGroup = B059067B21876A9800F52F7E /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                B059067921876A9800F52F7E /* Prototipo */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B059067821876A9800F52F7E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A719A5D4218A14410030E033 /* Main.storyboard in Resources */,
-				B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */,
-				B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */,
-				B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */,
-				B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */,
-				B059068721876A9800F52F7E /* Assets.xcassets in Resources */,
-				B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */,
-				B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */,
-				B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */,
-				B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        B059067821876A9800F52F7E /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A719A5D4218A14410030E033 /* Main.storyboard in Resources */,
+                B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */,
+                B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */,
+                B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */,
+                B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */,
+                B059068721876A9800F52F7E /* Assets.xcassets in Resources */,
+                B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */,
+                B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */,
+                B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */,
+                B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B059067621876A9800F52F7E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */,
-				B052D46C218B715F00123A0A /* Event6ViewController.swift in Sources */,
-				B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
-				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
-				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
-				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
-				B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
-				B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */,
-				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
-				B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
-				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
-				A72455C92190A81600775F90 /* CalenderView.swift in Sources */,
-				B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
-				B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */,
-				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
-				A72455CD2190A84C00775F90 /* MonthView.swift in Sources */,
-				A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */,
-				B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
-				B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
-				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
-				B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */,
-				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
-				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
-				A721EC10218F746A0047D65D /* Calendario.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        B059067621876A9800F52F7E /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */,
+                B052D46C218B715F00123A0A /* Event6ViewController.swift in Sources */,
+                B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
+                B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
+                B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
+                B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
+                B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */,
+                B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
+                B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
+                B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
+                A72455C92190A81600775F90 /* CalenderView.swift in Sources */,
+                B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
+                B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */,
+                B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
+                A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */,
+                A72455CD2190A84C00775F90 /* MonthView.swift in Sources */,
+                A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */,
+                B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
+                B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
+                B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
+                B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */,
+                B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
+                A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */,
+                A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
+                A721EC10218F746A0047D65D /* Calendario.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A719A5D2218A14410030E033 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A719A5D3218A14410030E033 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B059068821876A9800F52F7E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B059068921876A9800F52F7E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+        A719A5D2218A14410030E033 /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                A719A5D3218A14410030E033 /* Base */,
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        B059068821876A9800F52F7E /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                B059068921876A9800F52F7E /* Base */,
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B059068C21876A9800F52F7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		B059068D21876A9800F52F7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B059068F21876A9800F52F7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93JF9LS6ZY;
-				INFOPLIST_FILE = Prototipo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.Prototipo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B059069021876A9800F52F7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93JF9LS6ZY;
-				INFOPLIST_FILE = Prototipo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.Prototipo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
+        B059068C21876A9800F52F7E /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        B059068D21876A9800F52F7E /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        B059068F21876A9800F52F7E /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = 93JF9LS6ZY;
+                INFOPLIST_FILE = Prototipo/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.Prototipo;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        B059069021876A9800F52F7E /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = 93JF9LS6ZY;
+                INFOPLIST_FILE = Prototipo/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                PRODUCT_BUNDLE_IDENTIFIER = it.parthenope.iosdeveloper.Prototipo;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B059067521876A9800F52F7E /* Build configuration list for PBXProject "Prototipo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B059068C21876A9800F52F7E /* Debug */,
-				B059068D21876A9800F52F7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B059068E21876A9800F52F7E /* Build configuration list for PBXNativeTarget "Prototipo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B059068F21876A9800F52F7E /* Debug */,
-				B059069021876A9800F52F7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        B059067521876A9800F52F7E /* Build configuration list for PBXProject "Prototipo" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                B059068C21876A9800F52F7E /* Debug */,
+                B059068D21876A9800F52F7E /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        B059068E21876A9800F52F7E /* Build configuration list for PBXNativeTarget "Prototipo" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                B059068F21876A9800F52F7E /* Debug */,
+                B059069021876A9800F52F7E /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = B059067221876A9800F52F7E /* Project object */;
+    };
+    rootObject = B059067221876A9800F52F7E /* Project object */;
 }
