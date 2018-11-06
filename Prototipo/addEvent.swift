@@ -28,6 +28,10 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
      print("PointAnnotation created.")
      } */
     @IBOutlet var datePicker: UIDatePicker!
+    @IBOutlet var containerPerson: UIView!
+    
+   
+    
     @IBAction func inviteButton(_ sender: Any) {
         nRighe+=1
         tableView.reloadData()
@@ -44,45 +48,47 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
             return datePicker.frame.height
         case 2 where indexPath.row == 1:
             return mapView.frame.height
+        case 3:
+            return containerPerson.frame.height
         default:
             return 44
         }
     }
     
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch section {
-        case 0:
-            return 2
-        case 1:
-            return 1
-        case 2:
-            return 2
-        case 3:
-            return 1
-        case 4:
-            return nRighe
-        default:
-            return 0
-        }
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        switch section {
+//        case 0:
+//            return 2
+//        case 1:
+//            return 1
+//        case 2:
+//            return 2
+//        case 3:
+//            return 1
+//        case 4:
+//            return nRighe
+//        default:
+//            return 0
+//        }
+//    }
     
     
     
     
     
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.section == 4 {
-            let cellIdentifier="rigaPerson"
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-            //            if nRighe >= indexPath.row{
-            cell.textLabel?.text=persone[indexPath.row]
-            //           }
-            return cell
-        }
-        return super.tableView(tableView, cellForRowAt: indexPath)
-    }
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        if indexPath.section == 4 {
+//            let cellIdentifier="rigaPerson"
+//            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+//            //            if nRighe >= indexPath.row{
+//            cell.textLabel?.text=persone[indexPath.row]
+//            //           }
+//            return cell
+//        }
+//        return super.tableView(tableView, cellForRowAt: indexPath)
+//    }
     
     //   override func tab
     
@@ -129,6 +135,16 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
             descLabel.textColor = UIColor.lightGray
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "containerSegue" {
+            if let dest = segue.destination as? invitePerson {
+                dest.parentTableView = self.tableView
+                dest.parentContainerView = self.containerPerson
+            }
+        }
+    }
+    
 }
 
 

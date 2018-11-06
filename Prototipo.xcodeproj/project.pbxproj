@@ -12,6 +12,8 @@
 		A72455C92190A81600775F90 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455C82190A81600775F90 /* CalenderView.swift */; };
 		A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CA2190A81C00775F90 /* WeekdaysView.swift */; };
 		A72455CD2190A84C00775F90 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72455CC2190A84C00775F90 /* MonthView.swift */; };
+		A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C712191A9C800DDFE1F /* invitePerson.swift */; };
+		A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B1C732191B64200DDFE1F /* SearchViewController.swift */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -29,7 +31,6 @@
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
 		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
 		B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
-		B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059069121876C3B00F52F7E /* SearchViewController.swift */; };
 		B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
 		B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FB2190F7910094DDC9 /* EventiSaturday.json */; };
 		B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B960FD2190F7C20094DDC9 /* Event.swift */; };
@@ -47,6 +48,8 @@
 		A72455C82190A81600775F90 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		A72455CA2190A81C00775F90 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 		A72455CC2190A84C00775F90 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		A73B1C712191A9C800DDFE1F /* invitePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitePerson.swift; sourceTree = "<group>"; };
+		A73B1C732191B64200DDFE1F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +69,6 @@
 		B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B059069121876C3B00F52F7E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
 		B0B960FB2190F7910094DDC9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
 		B0B960FD2190F7C20094DDC9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
 				B052D463218B688200123A0A /* TableViewCell2.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
+				A73B1C732191B64200DDFE1F /* SearchViewController.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				A719A5D2218A14410030E033 /* Main.storyboard */,
+				A73B1C712191A9C800DDFE1F /* invitePerson.swift */,
 				B0B9610221910CB80094DDC9 /* EventiFriday.json */,
 				B0B9610321910CB80094DDC9 /* EventiMonday.json */,
 				B0B9610421910CB80094DDC9 /* EventiSunday.json */,
@@ -152,7 +156,6 @@
 				B0B9610121910CB80094DDC9 /* EventiWendnesday.json */,
 				B0B960FB2190F7910094DDC9 /* EventiSaturday.json */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
-				B059069121876C3B00F52F7E /* SearchViewController.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
 				A7F614A42188C1ED00D3414B /* addEvent.swift */,
 				B059068621876A9800F52F7E /* Assets.xcassets */,
@@ -244,7 +247,6 @@
 				B059068221876A9800F52F7E /* HomeViewController.swift in Sources */,
 				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
-				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
 				B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
 				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
 				B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
@@ -253,12 +255,14 @@
 				B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
 				B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
+				A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */,
 				A72455CD2190A84C00775F90 /* MonthView.swift in Sources */,
 				A72455CB2190A81C00775F90 /* WeekdaysView.swift in Sources */,
 				B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
 				B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
 				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
 				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
+				A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
 				A721EC10218F746A0047D65D /* Calendario.swift in Sources */,
 			);
