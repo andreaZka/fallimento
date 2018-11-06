@@ -15,7 +15,7 @@ class TableViewCell2: UITableViewCell {
         // Initialization code
     }
 
-   
+//   ghsafhjdv
     @IBOutlet weak var Name_event: UILabel!
     
     
