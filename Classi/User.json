@@ -1,0 +1,62 @@
+[
+{
+	"nome" : "Pasquale Tarantella",
+	"feedback" : 4.5,
+	"amici" : [
+"Gennaro Albertini",
+"Mario Rossi",
+"Vincenzo Iaquinta",
+"Gianluigi Donnarumma",
+"Gennaro Esposito"]
+
+},
+
+{
+    "nome" : "Gennaro Esposito",
+    "feedback" : 3.0,
+    "amici" : [
+        "Mario Rossi",
+        "Pasquale Tarantella",
+        "Vincenzo Iaquinta",
+        "Gianluigi Donnarumma",
+    "Gennaro Albertini"]
+    
+},
+
+{
+    "nome" : "Mario Rossi",
+    "feedback" : 4.0,
+    "amici" : [
+        "Gennaro Albertini",
+        "Pasquale Tarantella",
+        "Vincenzo Iaquinta",
+        "Gianluigi Donnarumma",
+    "Gennaro Esposito"]
+    
+},
+
+{
+    "nome" : "Gianluigi Donnarumma",
+    "feedback" : 3.5,
+    "amici" : [
+        "Mario Rossi",
+        "Pasquale Tarantella",
+        "Vincenzo Iaquinta",
+        "Gennaro Esposito",
+    "Gennaro Albertini"]
+    
+},
+
+{
+    "nome" : "Gennaro Albertini",
+    "feedback" : 2.0,
+    "amici" : [
+        "Mario Rossi",
+        "Pasquale Tarantella",
+        "Vincenzo Iaquinta",
+        "Gianluigi Donnarumma",
+    "Gennaro Esposito"]
+    
+}
+
+]

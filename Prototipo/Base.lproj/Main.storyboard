@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1299,7 +1299,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dva-yt-9Br" id="yUq-Qx-awG">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zec-gI-l3i">
@@ -2513,19 +2513,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Fototessera-stati-uniti" width="627" height="662"/>
-        <image name="avatar" width="32" height="32"/>
-        <image name="award" width="320" height="320"/>
-        <image name="favourites" width="512" height="512"/>
-        <image name="fototessera-casalboni-fotokino-riccione-1" width="103" height="100"/>
-        <image name="fototessere" width="75" height="100"/>
-        <image name="house-2" width="32" height="32"/>
-        <image name="magnifying-glass" width="32" height="32"/>
-        <image name="medal-1" width="256" height="256"/>
-        <image name="paper" width="64" height="64"/>
-        <image name="plus" width="64" height="64"/>
-        <image name="population" width="244" height="244"/>
-        <image name="star-2" width="512" height="512"/>
+        <image name="Fototessera-stati-uniti" width="150.47999572753906" height="158.8800048828125"/>
+        <image name="avatar" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="award" width="640" height="640"/>
+        <image name="favourites" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="fototessera-casalboni-fotokino-riccione-1" width="154.5" height="150.75"/>
+        <image name="fototessere" width="150" height="200"/>
+        <image name="house-2" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="magnifying-glass" width="51.200000762939453" height="51.200000762939453"/>
+        <image name="medal-1" width="512" height="512"/>
+        <image name="paper" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="plus" width="102.40000152587891" height="102.40000152587891"/>
+        <image name="population" width="488" height="488"/>
+        <image name="star-2" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="V6f-O5-6yj"/>

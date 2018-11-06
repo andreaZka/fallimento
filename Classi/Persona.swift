@@ -11,8 +11,10 @@ import Foundation
 struct Persona : Codable {
     
     var nome : String
-    var cognome : String
     var feedback : Float
     var amici = [String]()
     
+    
 }
+
+

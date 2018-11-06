@@ -8,18 +8,46 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class SearchViewController: UIViewController, UISearchBarDelegate {
 
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var userTable: UITableView!
     
     var searchWord = [String]()
     let user = ["Pazkal","Agostino","Pietroppaolo","Felice","Camastra","Pierfrancesco"]
+    var persona = [Persona]()
+    var searchPersona: [Persona]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         searchWord = user
+        caricaDati()
         // Do any additional setup after loading the view.
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        searchPersona = persona.filter({
+            (el: Persona) -> Bool in
+            if let text = searchBar.text {
+                return el.nome.lowercased().contains(text.lowercased())
+            }
+            return false
+        })
+    }
+    
+    func caricaDati(){
+            do {
+                if let file = Bundle.main.url(forResource: "User", withExtension: "json") {
+                    let data = try Data(contentsOf: file)
+                    self.persona = try JSONDecoder().decode([Persona].self, from: data)
+                    persona = persona.sorted(by: {$0.nome < $1.nome})
+                    
+                }
+                print("dati caricati")
+            }catch {
+                print("Error")
+        }
+    
     }
     
 //    override func tabl
@@ -36,3 +64,4 @@ class SearchViewController: UIViewController {
     */
 
 }
+

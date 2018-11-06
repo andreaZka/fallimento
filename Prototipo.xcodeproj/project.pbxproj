@@ -22,6 +22,7 @@
 		A73B36662191FB46006AF2C9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */; };
 		A73B36672191FB46006AF2C9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B36602191FB46006AF2C9 /* EventiThursday.json */; };
 		A73B36692191FDFC006AF2C9 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B36682191FDFC006AF2C9 /* Persona.swift */; };
+		A73B367221920C7F006AF2C9 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B367021920C7E006AF2C9 /* User.json */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -62,6 +63,7 @@
 		A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
 		A73B36602191FB46006AF2C9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
 		A73B36682191FDFC006AF2C9 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		A73B367021920C7E006AF2C9 /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				B0B9610B2191DC5D0094DDC9 /* EventPin.swift */,
 				B0B960FD2190F7C20094DDC9 /* Event.swift */,
+				A73B367021920C7E006AF2C9 /* User.json */,
 				A721EC0F218F746A0047D65D /* Calendario.swift */,
 				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
 				B04EF1C62189FB0900B28DAA /* ProfileViewController.swift */,
@@ -251,6 +254,7 @@
 				A73B36652191FB46006AF2C9 /* EventiSaturday.json in Resources */,
 				A73B36662191FB46006AF2C9 /* EventiWendnesday.json in Resources */,
 				A719A5D4218A14410030E033 /* Main.storyboard in Resources */,
+				A73B367221920C7F006AF2C9 /* User.json in Resources */,
 				B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */,
 				B059068721876A9800F52F7E /* Assets.xcassets in Resources */,
 			);
