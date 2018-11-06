@@ -15,12 +15,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tabella: UITableView!
     
     
+    @IBOutlet weak var datadelgiorno: UITextField!
     
     
-    let campi = ["basket","calcio","tennis","pallavolo"]
-    let campiImage = ["basket1","soccer","tennis1","volley"]
-    let N_eventi = ["Partita di Home","partita di andrea","Partita di zi rafel", "partita di mario"]
-    let Event_Date = ["10:00","12:30","15:00","21:00"]
+    
     
     var EVENTI = [event]()
     
@@ -49,17 +47,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! TableViewCell1
         
-//        cell..text = campi[indexPath.row]
-        
-//        cell.Name_event.text = N_eventi[indexPath.row]
-//        cell.image1.image = UIImage(named: campiImage[indexPath.row])
-//        cell.Type_ofSports.text = campi[indexPath.row]
-//        cell.Orario.text = Event_Date[indexPath.row]
-        // Configure the cell...
+
         cell.Name_event.text = EVENTI[indexPath.row].nome
         cell.image1.image = UIImage(named: EVENTI[indexPath.row].image)
         cell.Type_ofSports.text = EVENTI[indexPath.row].type
         cell.Orario.text = EVENTI[indexPath.row].ora
+        datadelgiorno.text = EVENTI[0].date
         let maskLayer = CAShapeLayer()
         let bounds = cell.bounds
         maskLayer.path = UIBezierPath(roundedRect: CGRect(x: 2, y: 2, width: bounds.width-4, height: bounds.height-4), cornerRadius: 5).cgPath

@@ -7,6 +7,8 @@
     
     "ora" : "18:30",
     
+    "date" : "7 Novembre",
+    
     "posizione" : {
         "indirizzo" : "Via Bartololongo - Sporting Club",
         "citta" : "San Giorgio a Cremano",
@@ -26,6 +28,7 @@
         "nome" : "Partita di Volley",
         "type" : "Volley",
         "ora" : "16:30",
+        "date" : "7 Novembre",
         "posizione":{
             "indirizzo":"Via Marilyn Monroe, 73, 80147 Napoli NA - Nuova Polisportiva Ponticelli",
             "citta":"Napoli",
@@ -42,6 +45,7 @@
         "nome" : "Partita di Calcio",
         "type" : "Calcio",
         "ora" : "22:00",
+        "date" : "7 Novembre",
         "posizione":{
             "indirizzo":"Via Palazziello - Troise Soccer",
             "citta":"Volla",
@@ -58,6 +62,7 @@
         "nome":"Partita di Basket",
         "type":"Basket",
         "ora" : "18:30",
+        "date" : "7 Novembre",
         "posizione":{
             "indirizzo":"Corso Domenico Ricciardi - Spianto",
             "citta":"Cercola",

@@ -6,7 +6,7 @@
     "type" : "Calcio",
     
     "ora" : "19:30",
-    
+    "date" : "13 Novembre",
     "posizione" : {
         "indirizzo" : "Via Palazziello - Troise Soccer",
         "citta" : "Volla",
@@ -26,6 +26,7 @@
         "nome" : "Partita di Volley femminile",
         "type" : "Volley",
         "ora" : "16:30",
+        "date" : "13 Novembre",
         "posizione":{
             "indirizzo":"Via Marilyn Monroe, 73, 80147 Napoli NA - Nuova Polisportiva Ponticelli",
             "citta":"Napoli",
@@ -42,6 +43,7 @@
         "nome":"Partita di Basket femminile",
         "type":"Basket",
         "ora" : "17:30",
+        "date" : "13 Novembre",
         "posizione":{
             "indirizzo":"Via Argine, 927, 80147 Napoli NA",
             "citta":"Napoli",

@@ -15,10 +15,8 @@ class Event6ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tabella: UITableView!
     
     var EVENTI = [event]()
-    let campi6 = ["basket","calcio","tennis","pallavolo"]
-    let campiImage6 = ["basket1","soccer","tennis1","volley"]
-    let N_eventi6 = ["Partita di Event6","partita di andrea","Partita di zi rafel", "partita di mario"]
-    let Event_Date6 = ["10:00","12:30","15:00","21:00"]
+    
+    @IBOutlet weak var datadelgiorno: UITextField!
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -43,6 +41,8 @@ class Event6ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.Image_E6.image = UIImage(named: EVENTI[indexPath.row].image)
         cell.Type_E6.text = EVENTI[indexPath.row].type
         cell.Ora_E6.text = EVENTI[indexPath.row].ora
+        
+        datadelgiorno.text = EVENTI[0].date
         // Configure the cell...
         let maskLayer = CAShapeLayer()
         let bounds = cell.bounds
