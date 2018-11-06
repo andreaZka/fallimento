@@ -6,22 +6,33 @@
 //  Copyright © 2018 Sergio Solmonte. All rights reserved.
 //
 
-import Foundation
-class loc {
-    var indirizzo = ""
-    var citta = ""
-    var lat = 0.00
-    var lon = 0.00
+
+import MapKit
+
+struct loc: Codable {
+    var indirizzo: String
+    var citta:String
+    var lat: Double
+    var lon: Double
 }
 
-class event: Codable{
+struct event: Codable {
     
     
-    var nome = ""
-    var type = ""
-    var ora = ""
-    var description = ""
-    var image = ""
-//    var posizione: loc
+    var nome: String
+    var type: String
+    var ora: String
+    var description: String
+    var image: String
+    var posizione: loc
+    
+    func getPin() -> eventPin{
+        let pin = eventPin(title: self.nome, type: type, coordinate: CLLocationCoordinate2D(latitude: (self.posizione.lat), longitude: (self.posizione.lon)))
+        
+        
+        
+        
+        return pin
+    }
     
 }

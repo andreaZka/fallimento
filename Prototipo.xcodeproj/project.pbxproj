@@ -39,6 +39,9 @@
 		B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610221910CB80094DDC9 /* EventiFriday.json */; };
 		B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610321910CB80094DDC9 /* EventiMonday.json */; };
 		B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610421910CB80094DDC9 /* EventiSunday.json */; };
+		B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9610B2191DC5D0094DDC9 /* EventPin.swift */; };
+		B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9610E2191DCF90094DDC9 /* MapKit.framework */; };
+		B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B961102191DF9B0094DDC9 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +79,9 @@
 		B0B9610221910CB80094DDC9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiFriday.json; sourceTree = "<group>"; };
 		B0B9610321910CB80094DDC9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiMonday.json; sourceTree = "<group>"; };
 		B0B9610421910CB80094DDC9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSunday.json; sourceTree = "<group>"; };
+		B0B9610B2191DC5D0094DDC9 /* EventPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPin.swift; sourceTree = "<group>"; };
+		B0B9610E2191DCF90094DDC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0B961102191DF9B0094DDC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +109,7 @@
 		B04EF1C02188B72C00B28DAA /* Classi */ = {
 			isa = PBXGroup;
 			children = (
+				B0B9610B2191DC5D0094DDC9 /* EventPin.swift */,
 				B0B960FD2190F7C20094DDC9 /* Event.swift */,
 				A721EC0F218F746A0047D65D /* Calendario.swift */,
 				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
@@ -118,6 +126,7 @@
 				B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
 				B052D463218B688200123A0A /* TableViewCell2.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
+				B0B961102191DF9B0094DDC9 /* MapViewController.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 				B04EF1C02188B72C00B28DAA /* Classi */,
 				B059067C21876A9800F52F7E /* Prototipo */,
 				B059067B21876A9800F52F7E /* Products */,
+				B0B9610D2191DCF90094DDC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +169,14 @@
 				B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
 			);
 			path = Prototipo;
+			sourceTree = "<group>";
+		};
+		B0B9610D2191DCF90094DDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B9610E2191DCF90094DDC9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +264,7 @@
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				B059069221876C3B00F52F7E /* SearchViewController.swift in Sources */,
 				B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
+				B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */,
 				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
 				B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
 				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
@@ -258,6 +277,7 @@
 				B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
 				B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
 				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
+				B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */,
 				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
 				A721EC10218F746A0047D65D /* Calendario.swift in Sources */,
