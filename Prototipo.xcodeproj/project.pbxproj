@@ -31,15 +31,18 @@
 		B059068221876A9800F52F7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059068121876A9800F52F7E /* HomeViewController.swift */; };
 		B059068721876A9800F52F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B059068621876A9800F52F7E /* Assets.xcassets */; };
 		B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B059068821876A9800F52F7E /* LaunchScreen.storyboard */; };
+		B05BD93B2191F66300E8CAE9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9342191F66300E8CAE9 /* EventiMonday.json */; };
+		B05BD93C2191F66300E8CAE9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9352191F66300E8CAE9 /* EventiFriday.json */; };
+		B05BD93D2191F66300E8CAE9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */; };
+		B05BD93E2191F66300E8CAE9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9372191F66300E8CAE9 /* EventiSunday.json */; };
+		B05BD93F2191F66300E8CAE9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9382191F66300E8CAE9 /* EventiTuesday.json */; };
+		B05BD9402191F66300E8CAE9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD9392191F66300E8CAE9 /* EventiSaturday.json */; };
+		B05BD9412191F66300E8CAE9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = B05BD93A2191F66300E8CAE9 /* EventiThursday.json */; };
 		B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */; };
-		B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FB2190F7910094DDC9 /* EventiSaturday.json */; };
 		B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B960FD2190F7C20094DDC9 /* Event.swift */; };
-		B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B960FF21910CB80094DDC9 /* EventiThursday.json */; };
-		B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610021910CB80094DDC9 /* EventiTuesday.json */; };
-		B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610121910CB80094DDC9 /* EventiWendnesday.json */; };
-		B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610221910CB80094DDC9 /* EventiFriday.json */; };
-		B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610321910CB80094DDC9 /* EventiMonday.json */; };
-		B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9610421910CB80094DDC9 /* EventiSunday.json */; };
+		B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B9610B2191DC5D0094DDC9 /* EventPin.swift */; };
+		B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9610E2191DCF90094DDC9 /* MapKit.framework */; };
+		B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B961102191DF9B0094DDC9 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,15 +72,18 @@
 		B059068621876A9800F52F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B059068921876A9800F52F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B059068B21876A9800F52F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05BD9342191F66300E8CAE9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiMonday.json; path = ../../jsonDays/EventiMonday.json; sourceTree = "<group>"; };
+		B05BD9352191F66300E8CAE9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiFriday.json; path = ../../jsonDays/EventiFriday.json; sourceTree = "<group>"; };
+		B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiWendnesday.json; path = ../../jsonDays/EventiWendnesday.json; sourceTree = "<group>"; };
+		B05BD9372191F66300E8CAE9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiSunday.json; path = ../../jsonDays/EventiSunday.json; sourceTree = "<group>"; };
+		B05BD9382191F66300E8CAE9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiTuesday.json; path = ../../jsonDays/EventiTuesday.json; sourceTree = "<group>"; };
+		B05BD9392191F66300E8CAE9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiSaturday.json; path = ../../jsonDays/EventiSaturday.json; sourceTree = "<group>"; };
+		B05BD93A2191F66300E8CAE9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = EventiThursday.json; path = ../../jsonDays/EventiThursday.json; sourceTree = "<group>"; };
 		B05E47BB218CAED3003FD2B4 /* WriteDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDescViewController.swift; sourceTree = "<group>"; };
-		B0B960FB2190F7910094DDC9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
 		B0B960FD2190F7C20094DDC9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		B0B960FF21910CB80094DDC9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
-		B0B9610021910CB80094DDC9 /* EventiTuesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiTuesday.json; sourceTree = "<group>"; };
-		B0B9610121910CB80094DDC9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
-		B0B9610221910CB80094DDC9 /* EventiFriday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiFriday.json; sourceTree = "<group>"; };
-		B0B9610321910CB80094DDC9 /* EventiMonday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiMonday.json; sourceTree = "<group>"; };
-		B0B9610421910CB80094DDC9 /* EventiSunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSunday.json; sourceTree = "<group>"; };
+		B0B9610B2191DC5D0094DDC9 /* EventPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPin.swift; sourceTree = "<group>"; };
+		B0B9610E2191DCF90094DDC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0B961102191DF9B0094DDC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B9610F2191DCF90094DDC9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +111,7 @@
 		B04EF1C02188B72C00B28DAA /* Classi */ = {
 			isa = PBXGroup;
 			children = (
+				B0B9610B2191DC5D0094DDC9 /* EventPin.swift */,
 				B0B960FD2190F7C20094DDC9 /* Event.swift */,
 				A721EC0F218F746A0047D65D /* Calendario.swift */,
 				B04EF1C52189FB0900B28DAA /* FloatRatingView.swift */,
@@ -120,6 +128,7 @@
 				B04EF1C9218A01E400B28DAA /* TableViewCell1.swift */,
 				B052D463218B688200123A0A /* TableViewCell2.swift */,
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
+				B0B961102191DF9B0094DDC9 /* MapViewController.swift */,
 				A73B1C732191B64200DDFE1F /* SearchViewController.swift */,
 			);
 			path = Classi;
@@ -132,6 +141,7 @@
 				B04EF1C02188B72C00B28DAA /* Classi */,
 				B059067C21876A9800F52F7E /* Prototipo */,
 				B059067B21876A9800F52F7E /* Products */,
+				B0B9610D2191DCF90094DDC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,15 +156,15 @@
 		B059067C21876A9800F52F7E /* Prototipo */ = {
 			isa = PBXGroup;
 			children = (
+				B05BD9352191F66300E8CAE9 /* EventiFriday.json */,
+				B05BD9342191F66300E8CAE9 /* EventiMonday.json */,
+				B05BD9392191F66300E8CAE9 /* EventiSaturday.json */,
+				B05BD9372191F66300E8CAE9 /* EventiSunday.json */,
+				B05BD93A2191F66300E8CAE9 /* EventiThursday.json */,
+				B05BD9382191F66300E8CAE9 /* EventiTuesday.json */,
+				B05BD9362191F66300E8CAE9 /* EventiWendnesday.json */,
 				A719A5D2218A14410030E033 /* Main.storyboard */,
 				A73B1C712191A9C800DDFE1F /* invitePerson.swift */,
-				B0B9610221910CB80094DDC9 /* EventiFriday.json */,
-				B0B9610321910CB80094DDC9 /* EventiMonday.json */,
-				B0B9610421910CB80094DDC9 /* EventiSunday.json */,
-				B0B960FF21910CB80094DDC9 /* EventiThursday.json */,
-				B0B9610021910CB80094DDC9 /* EventiTuesday.json */,
-				B0B9610121910CB80094DDC9 /* EventiWendnesday.json */,
-				B0B960FB2190F7910094DDC9 /* EventiSaturday.json */,
 				B059067D21876A9800F52F7E /* AppDelegate.swift */,
 				B059068B21876A9800F52F7E /* Info.plist */,
 				A7F614A42188C1ED00D3414B /* addEvent.swift */,
@@ -162,6 +172,14 @@
 				B059068821876A9800F52F7E /* LaunchScreen.storyboard */,
 			);
 			path = Prototipo;
+			sourceTree = "<group>";
+		};
+		B0B9610D2191DCF90094DDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B9610E2191DCF90094DDC9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,16 +240,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05BD93C2191F66300E8CAE9 /* EventiFriday.json in Resources */,
+				B05BD93E2191F66300E8CAE9 /* EventiSunday.json in Resources */,
+				B05BD9412191F66300E8CAE9 /* EventiThursday.json in Resources */,
+				B05BD93B2191F66300E8CAE9 /* EventiMonday.json in Resources */,
+				B05BD93D2191F66300E8CAE9 /* EventiWendnesday.json in Resources */,
+				B05BD93F2191F66300E8CAE9 /* EventiTuesday.json in Resources */,
 				A719A5D4218A14410030E033 /* Main.storyboard in Resources */,
+				B05BD9402191F66300E8CAE9 /* EventiSaturday.json in Resources */,
 				B059068A21876A9800F52F7E /* LaunchScreen.storyboard in Resources */,
-				B0B9610A21910CB80094DDC9 /* EventiSunday.json in Resources */,
-				B0B9610521910CB80094DDC9 /* EventiThursday.json in Resources */,
-				B0B9610821910CB80094DDC9 /* EventiFriday.json in Resources */,
 				B059068721876A9800F52F7E /* Assets.xcassets in Resources */,
-				B0B9610921910CB80094DDC9 /* EventiMonday.json in Resources */,
-				B0B9610721910CB80094DDC9 /* EventiWendnesday.json in Resources */,
-				B0B9610621910CB80094DDC9 /* EventiTuesday.json in Resources */,
-				B0B960FC2190F7910094DDC9 /* EventiSaturday.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +266,7 @@
 				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
+				B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */,
 				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
 				B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
 				B04EF1C42188C34800B28DAA /* EventViewController.swift in Sources */,
@@ -261,6 +280,7 @@
 				B052D46A218B715500123A0A /* Event5ViewController.swift in Sources */,
 				B052D46E218B716E00123A0A /* Event7ViewController.swift in Sources */,
 				B05E47BC218CAED3003FD2B4 /* WriteDescViewController.swift in Sources */,
+				B0B9610C2191DC5D0094DDC9 /* EventPin.swift in Sources */,
 				B052D464218B688200123A0A /* TableViewCell2.swift in Sources */,
 				A73B1C722191A9C800DDFE1F /* invitePerson.swift in Sources */,
 				A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */,
@@ -411,8 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3L3584T556;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
 				INFOPLIST_FILE = Prototipo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,8 +450,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3L3584T556;
+				DEVELOPMENT_TEAM = 93JF9LS6ZY;
 				INFOPLIST_FILE = Prototipo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
