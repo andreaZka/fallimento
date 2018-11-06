@@ -11,7 +11,7 @@ import MapKit
 
 struct loc: Codable {
     var indirizzo: String
-    var citta:String
+    var citta: String
     var lat: Double
     var lon: Double
 }
