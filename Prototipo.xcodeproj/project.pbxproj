@@ -21,6 +21,7 @@
 		A73B36652191FB46006AF2C9 /* EventiSaturday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365E2191FB46006AF2C9 /* EventiSaturday.json */; };
 		A73B36662191FB46006AF2C9 /* EventiWendnesday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */; };
 		A73B36672191FB46006AF2C9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B36602191FB46006AF2C9 /* EventiThursday.json */; };
+		A73B36692191FDFC006AF2C9 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B36682191FDFC006AF2C9 /* Persona.swift */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -60,6 +61,7 @@
 		A73B365E2191FB46006AF2C9 /* EventiSaturday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiSaturday.json; sourceTree = "<group>"; };
 		A73B365F2191FB46006AF2C9 /* EventiWendnesday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiWendnesday.json; sourceTree = "<group>"; };
 		A73B36602191FB46006AF2C9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
+		A73B36682191FDFC006AF2C9 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */,
 				B0B961102191DF9B0094DDC9 /* MapViewController.swift */,
 				A73B1C732191B64200DDFE1F /* SearchViewController.swift */,
+				A73B36682191FDFC006AF2C9 /* Persona.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				B04EF1C82189FB0900B28DAA /* ProfileViewController.swift in Sources */,
 				B059067E21876A9800F52F7E /* AppDelegate.swift in Sources */,
 				B052D466218B6DC400123A0A /* Event3ViewController.swift in Sources */,
+				A73B36692191FDFC006AF2C9 /* Persona.swift in Sources */,
 				B0B961112191DF9B0094DDC9 /* MapViewController.swift in Sources */,
 				B04EF1CA218A01E400B28DAA /* TableViewCell1.swift in Sources */,
 				B052D468218B714400123A0A /* Event4ViewController.swift in Sources */,
