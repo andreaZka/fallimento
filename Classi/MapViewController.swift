@@ -11,7 +11,8 @@ import MapKit
 import CoreLocation
 
 class MapViewController: UIViewController , MKMapViewDelegate , CLLocationManagerDelegate{
-    @IBOutlet weak var mapView: MKMapView!
+ 
+    @IBOutlet  var mapView: MKMapView!
     
     var locationManager : CLLocationManager!
     var posizioneUtente : CLLocationCoordinate2D!
@@ -27,7 +28,6 @@ class MapViewController: UIViewController , MKMapViewDelegate , CLLocationManage
         
         self.locationManager = CLLocationManager()
         
-        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.requestWhenInUseAuthorization()
@@ -40,7 +40,7 @@ class MapViewController: UIViewController , MKMapViewDelegate , CLLocationManage
         
         //Aggiungo i pins
         do {
-            if let file = Bundle.main.url(forResource: "eventiFriday", withExtension: "json") {
+            if let file = Bundle.main.url(forResource: "EventiFriday", withExtension: "json") {
                 let data = try Data(contentsOf: file)
                 self.EVENTI = try JSONDecoder().decode([event].self, from: data)
                 
@@ -51,7 +51,7 @@ class MapViewController: UIViewController , MKMapViewDelegate , CLLocationManage
                     mapView.addAnnotation(eachEvent.getPin())
                     
                     let punto = CLLocationCoordinate2DMake((eachEvent.posizione.lat), (eachEvent.posizione.lon))
-                    mapView.setRegion(MKCoordinateRegion(center: punto, span: MKCoordinateSpan(latitudeDelta: 40.0, longitudeDelta: 13.0)), animated: true)
+                    mapView.setRegion(MKCoordinateRegion(center: punto, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)), animated: true)
                     let directionsRequest = MKDirections.Request()
                     let markUser = MKPlacemark(coordinate: CLLocationCoordinate2DMake(mapView.userLocation.coordinate.latitude, mapView.userLocation.coordinate.longitude), addressDictionary: nil)
                     let markEvent = MKPlacemark(coordinate: CLLocationCoordinate2DMake(punto.latitude, punto.longitude), addressDictionary: nil)
@@ -106,7 +106,7 @@ class MapViewController: UIViewController , MKMapViewDelegate , CLLocationManage
             //            pinView?.animatesDrop = true
             pinView?.canShowCallout = true
             pinView?.isDraggable = false
-            pinView?.image = UIImage(named: "church-icon")
+            pinView?.image = UIImage(named: "avatar")
             //            pinView?.pinTintColor = .green
             
             let rightButton: AnyObject! = UIButton(type: UIButton.ButtonType.detailDisclosure)

@@ -12,6 +12,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tabella: UITableView!
     
+    @IBOutlet weak var datadelgiorno: UITextField!
     var EVENTI = [event]()
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -38,6 +39,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.image2.image = UIImage(named: EVENTI[indexPath.row].image)
         cell.TypeSport.text = EVENTI[indexPath.row].type
         cell.orario.text = EVENTI[indexPath.row].ora
+        datadelgiorno.text = EVENTI[0].date
         // Configure the cell...
         let maskLayer = CAShapeLayer()
         let bounds = cell.bounds

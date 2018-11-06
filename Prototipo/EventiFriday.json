@@ -6,7 +6,7 @@
     "type" : "Calcio",
     
     "ora" : "19:30",
-    
+    "date" : "9 Novembre",
     "posizione" : {
         "indirizzo" : "Via Palazziello - Troise Soccer",
         "citta" : "Volla",
@@ -28,7 +28,7 @@
     "type" : "Tennis",
     
     "ora" : "19:30",
-    
+    "date" : "9 Novembre",
     "posizione" : {
         "indirizzo" : "Via Bartololongo - Sporting Club",
         "citta" : "San Giorgio a Cremano",

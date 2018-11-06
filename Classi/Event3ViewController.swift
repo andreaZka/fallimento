@@ -14,6 +14,7 @@ class Event3ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var tabella: UITableView!
     
+    @IBOutlet weak var datadelgiorno: UITextField!
     var EVENTI = [event]()
     let campi3 = ["basket","calcio","tennis","pallavolo"]
     let campiImage3 = ["basket1","soccer","tennis1","volley"]
@@ -43,6 +44,7 @@ class Event3ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.image_event3.image = UIImage(named: EVENTI[indexPath.row].image)
         cell.type_event3.text = EVENTI[indexPath.row].type
         cell.OR_event3.text = EVENTI[indexPath.row].ora
+        datadelgiorno.text = EVENTI[0].date
         // Configure the cell...
         let maskLayer = CAShapeLayer()
         let bounds = cell.bounds

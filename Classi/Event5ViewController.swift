@@ -14,11 +14,10 @@ class Event5ViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var tabella: UITableView!
     
+    @IBOutlet weak var datadelgiorno: UITextField!
+    
     var EVENTI = [event]()
-    let campi5 = ["basket","calcio","tennis","pallavolo"]
-    let campiImage5 = ["basket1","soccer","tennis1","volley"]
-    let N_eventi5 = ["Partita di Event5","partita di andrea","Partita di zi rafel", "partita di mario"]
-    let Event_Date5 = ["10:00","12:30","15:00","21:00"]
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -38,11 +37,7 @@ class Event5ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! TableViewCell2
         
-        //        cell..text = campi[indexPath.row]
-//        cell.Name_E5.text = N_eventi5[indexPath.row]
-//        cell.Image_E5.image = UIImage(named: campiImage5[indexPath.row])
-//        cell.type_E5.text = campi5[indexPath.row]
-//        cell.ora_E5.text = Event_Date5[indexPath.row]
+ 
         cell.Name_E5.text = EVENTI[indexPath.row].nome
         cell.Image_E5.image = UIImage(named: EVENTI[indexPath.row].image)
         cell.type_E5.text = EVENTI[indexPath.row].type
@@ -70,7 +65,7 @@ class Event5ViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 let data = try Data(contentsOf: file)
                 self.EVENTI = try JSONDecoder().decode([event].self, from: data)
                 EVENTI = EVENTI.sorted(by: {$0.ora < $1.ora})
-                
+                datadelgiorno.text = EVENTI[0].date
             }
             print("dati caricati")
         }catch {

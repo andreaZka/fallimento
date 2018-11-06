@@ -22,6 +22,7 @@ struct event: Codable {
     var nome: String
     var type: String
     var ora: String
+    var date: String
     var description: String
     var image: String
     var posizione: loc

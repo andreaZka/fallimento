@@ -7,6 +7,8 @@ n[
     
     "ora" : "11:30",
     
+    "date" : "12 Novembre",
+    
     "posizione" : {
         "indirizzo" : "Via Bartololongo - Sporting Club",
         "citta" : "San Giorgio a Cremano",
@@ -26,6 +28,7 @@ n[
         "nome" : "Torneo di Tennis 2v2",
         "type" : "Tennis",
         "ora" : "17:30",
+        "date" : "12 Novembre",
         "posizione":{
             "indirizzo":"Via Bartololongo - Sporting Club",
             "citta":"San Giorgio a Cremano",
