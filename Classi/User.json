@@ -57,6 +57,17 @@
         "Gianluigi Donnarumma",
     "Gennaro Esposito"]
     
-}
+},
 
+{
+    "nome" : "Vincenzo Iaquinta",
+    "feedback" : 2.0,
+    "amici" : [
+        "Mario Rossi",
+        "Pasquale Tarantella",
+        "Gennaro Albertini",
+        "Gianluigi Donnarumma",
+    "Gennaro Esposito"]
+    
+}
 ]

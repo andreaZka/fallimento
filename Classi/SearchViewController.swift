@@ -8,7 +8,9 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UISearchBarDelegate {
+class SearchViewController: UIViewController, UISearchBarDelegate,UITextViewDelegate,UITableViewDataSource {
+    
+
 
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var userTable: UITableView!
@@ -49,6 +51,20 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         }
     
     }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return persona.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier="userRow"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        cell.textLabel?.text=persona[indexPath.row].nome
+        return cell
+    }
+    
+    
     
 //    override func tabl
     
