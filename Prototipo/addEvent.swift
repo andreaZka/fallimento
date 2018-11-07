@@ -9,7 +9,33 @@
 import UIKit
 import MapKit
 
-class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLLocationManagerDelegate {
+class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLLocationManagerDelegate,UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    let sports = ["Calcio","Basket","Pallavolo","Tennis"]
+    
+
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return  1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return sports.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
+        return sports[row];
+    }
+    
+    //Per saperne di più: https://www.iprog.it/blog/swift/swift-uipickerview/ | iProg
+    
+    //Per saperne di più: https://www.iprog.it/blog/swift/swift-uipickerview/ | iProg
+        
+        //Per saperne di più: https://www.iprog.it/blog/swift/swift-uipickerview/ | iProg
+    
+//    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//        return selectSport.text = sports[row]
+//    }
+    
     var nRighe=1
     
     @IBOutlet weak var descLabel: UITextView!
@@ -30,7 +56,7 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet var containerPerson: UIView!
     
-   
+    @IBOutlet weak var selectSport: UIPickerView!
     
     @IBAction func inviteButton(_ sender: Any) {
         nRighe+=1
@@ -44,6 +70,8 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
         switch indexPath.section {
         case 0 where indexPath.row == 1:
             return descLabel.frame.height
+        case 0 where indexPath.row == 2:
+            return selectSport.frame.height
         case 1:
             return datePicker.frame.height
         case 2 where indexPath.row == 1:

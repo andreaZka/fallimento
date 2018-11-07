@@ -11,18 +11,17 @@ import UIKit
 class SearchViewController: UIViewController, UISearchBarDelegate,UITextViewDelegate,UITableViewDataSource {
     
 
-
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var userTable: UITableView!
     
     var searchWord = [String]()
     let user = ["Pazkal","Agostino","Pietroppaolo","Felice","Camastra","Pierfrancesco"]
     var persona = [Persona]()
-    var searchPersona: [Persona]?
+    var searchPersona = [Persona]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchWord = user
+//        searchWord = user
         caricaDati()
         // Do any additional setup after loading the view.
     }
@@ -35,33 +34,43 @@ class SearchViewController: UIViewController, UISearchBarDelegate,UITextViewDele
             }
             return false
         })
+        userTable.reloadData()
     }
     
     func caricaDati(){
-            do {
-                if let file = Bundle.main.url(forResource: "User", withExtension: "json") {
-                    let data = try Data(contentsOf: file)
-                    self.persona = try JSONDecoder().decode([Persona].self, from: data)
-                    persona = persona.sorted(by: {$0.nome < $1.nome})
-                    
-                }
-                print("dati caricati")
-            }catch {
-                print("Error")
-        }
+        do {
+            if let file = Bundle.main.url(forResource: "User", withExtension: "json") {
+                let data = try Data(contentsOf: file)
+                self.persona = try JSONDecoder().decode([Persona].self, from: data)
+                persona = persona.sorted(by: {$0.nome < $1.nome})
+                
+            }
+            print("dati caricati")
+        }catch {
+            print("Error")
+    }
     
     }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if searchPersona.isEmpty{
         return persona.count
+        } else {
+            return searchPersona.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellIdentifier="userRow"
+        let cellIdentifier="Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        if searchPersona.isEmpty{
         cell.textLabel?.text=persona[indexPath.row].nome
+        } else {
+            cell.textLabel?.text=searchPersona[indexPath.row].nome
+        }
         return cell
+            
     }
     
     
