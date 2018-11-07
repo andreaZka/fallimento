@@ -145,7 +145,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VNF-Y9-ShE">
-                                <rect key="frame" x="0.0" y="76" width="375" height="542"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="jPF-LX-N0T">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
@@ -192,6 +192,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifying-glass" id="MYO-6o-phj">
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
+                    <navigationItem key="navigationItem" id="ace-ac-eIe"/>
                     <connections>
                         <outlet property="searchBar" destination="jPF-LX-N0T" id="5BR-aq-ppm"/>
                         <outlet property="userTable" destination="VNF-Y9-ShE" id="MVK-MV-eNx"/>
@@ -199,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzG-kH-SFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2.3999999999999999" y="859.52023988005999"/>
+            <point key="canvasLocation" x="190" y="888"/>
         </scene>
         <!--Dettagli Eventi View Controller-->
         <scene sceneID="0MF-t0-vfM">
@@ -557,6 +558,7 @@
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eiN-YK-WoP"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -564,13 +566,30 @@
                     </tabBar>
                     <connections>
                         <segue destination="W2c-Ay-yWO" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="EVG-t2-1NS" kind="relationship" relationship="viewControllers" id="BTI-ym-cPG"/>
                         <segue destination="1Bo-dW-yDR" kind="relationship" relationship="viewControllers" id="Y23-vX-yv4"/>
+                        <segue destination="pIC-T2-awy" kind="relationship" relationship="viewControllers" id="17f-p1-gSY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-564" y="-25"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="x9m-f1-7sx">
+            <objects>
+                <navigationController id="pIC-T2-awy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifying-glass" id="mnx-Iw-Ka6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qP3-g1-MN7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EVG-t2-1NS" kind="relationship" relationship="rootViewController" id="nhh-lW-85g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIR-6R-Deb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-593" y="889"/>
         </scene>
         <!--Home-->
         <scene sceneID="aYS-NP-5Le">
