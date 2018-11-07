@@ -63,6 +63,7 @@ class EventViewController: UIViewController, UITableViewDelegate, UITableViewDat
             if let file = Bundle.main.url(forResource: "EventiFriday", withExtension: "json") {
                 let data = try Data(contentsOf: file)
                 self.EVENTI = try JSONDecoder().decode([event].self, from: data)
+                EVENTI.append(contentsOf: AdditionalDB.instance.eventFriday)
                 EVENTI = EVENTI.sorted(by: {$0.ora < $1.ora})
                 
             }

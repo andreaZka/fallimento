@@ -12,8 +12,10 @@ import MapKit
 class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLLocationManagerDelegate,UIPickerViewDelegate, UIPickerViewDataSource {
     
     let sports = ["Calcio","Basket","Pallavolo","Tennis"]
+    var selectedSport = ""
     
-
+    @IBOutlet var nameText: UITextField!
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return  1
     }
@@ -61,6 +63,59 @@ class addEvent: UITableViewController, UITextViewDelegate,MKMapViewDelegate, CLL
     @IBAction func inviteButton(_ sender: Any) {
         nRighe+=1
         tableView.reloadData()
+    }
+    
+    func datePickerChanged(date: Date) -> String {
+        let dateFormatter = DateFormatter()
+        
+        dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+        
+        let strDate = dateFormatter.string(from: date)
+        return strDate
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        selectedSport = sports[row]
+    }
+    
+    @IBAction func saveButton(_ sender: Any) {
+        let location = loc(indirizzo: "Via Marylin Monroe 173",
+            citta: "Napoli",
+            lat: 40.87965,
+            lon: 14.340686)
+        
+        let dateFormat = datePickerChanged(date: datePicker.date).components(separatedBy: " ")
+        
+        let _event = event(nome: nameText.text!,
+            type: selectedSport,
+            ora: dateFormat[1],
+            date: dateFormat[0],
+            description: descLabel.text,
+            image: "basket-1",
+            posizione: location)
+            
+        switch datePicker.date.weekday {
+        case 1:
+            AdditionalDB.instance.eventSunday.append(_event)
+        case 2:
+            AdditionalDB.instance.eventMonday.append(_event)
+        case 3:
+            AdditionalDB.instance.eventTuesday.append(_event)
+        case 4:
+            AdditionalDB.instance.eventWednesday.append(_event)
+        case 5:
+            AdditionalDB.instance.eventThursday.append(_event)
+        case 6:
+            AdditionalDB.instance.eventFriday.append(_event)
+        case 7:
+            AdditionalDB.instance.eventSaturday.append(_event)
+        default:
+            break
+        }
+        
+        navigationController?.popViewController(animated: true)
+        
     }
     
     let persone = ["Pazkal","Agostino","Pietroppaolo","Felice","Camastra","Pierfrancesco"]

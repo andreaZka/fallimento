@@ -23,6 +23,7 @@
 		A73B36672191FB46006AF2C9 /* EventiThursday.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B36602191FB46006AF2C9 /* EventiThursday.json */; };
 		A73B36692191FDFC006AF2C9 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B36682191FDFC006AF2C9 /* Persona.swift */; };
 		A73B367221920C7F006AF2C9 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = A73B367021920C7E006AF2C9 /* User.json */; };
+		A73B36752192F72D006AF2C9 /* AdditionalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73B36742192F72D006AF2C9 /* AdditionalDB.swift */; };
 		A7F614A52188C1ED00D3414B /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F614A42188C1ED00D3414B /* addEvent.swift */; };
 		B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */; };
 		B04EF1C22188B72C00B28DAA /* DettagliEventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */; };
@@ -64,6 +65,7 @@
 		A73B36602191FB46006AF2C9 /* EventiThursday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventiThursday.json; sourceTree = "<group>"; };
 		A73B36682191FDFC006AF2C9 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		A73B367021920C7E006AF2C9 /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		A73B36742192F72D006AF2C9 /* AdditionalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalDB.swift; sourceTree = "<group>"; };
 		A7F614A42188C1ED00D3414B /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		B04EF1AF2188905700B28DAA /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 		B04EF1C12188B72C00B28DAA /* DettagliEventiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DettagliEventiViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				B0B961102191DF9B0094DDC9 /* MapViewController.swift */,
 				A73B1C732191B64200DDFE1F /* SearchViewController.swift */,
 				A73B36682191FDFC006AF2C9 /* Persona.swift */,
+				A73B36742192F72D006AF2C9 /* AdditionalDB.swift */,
 			);
 			path = Classi;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				A72455C92190A81600775F90 /* CalenderView.swift in Sources */,
 				B04EF1C72189FB0900B28DAA /* FloatRatingView.swift in Sources */,
 				B0B960FE2190F7C20094DDC9 /* Event.swift in Sources */,
+				A73B36752192F72D006AF2C9 /* AdditionalDB.swift in Sources */,
 				B04EF1B02188905700B28DAA /* ViewControllerDetails.swift in Sources */,
 				A73B1C742191B64200DDFE1F /* SearchViewController.swift in Sources */,
 				A72455CD2190A84C00775F90 /* MonthView.swift in Sources */,

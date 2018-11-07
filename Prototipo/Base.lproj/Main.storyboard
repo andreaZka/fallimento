@@ -363,7 +363,7 @@
                         <viewLayoutGuide key="safeArea" id="C8h-eu-OrB"/>
                     </view>
                     <navigationItem key="navigationItem" id="XBp-Vb-TaB">
-                        <barButtonItem key="rightBarButtonItem" title="Add " id="dkO-qS-aou">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="dkO-qS-aou">
                             <connections>
                                 <segue destination="qe3-Wt-izP" kind="show" id="c8H-RT-fZd"/>
                             </connections>
@@ -1645,12 +1645,19 @@
                             <outlet property="delegate" destination="qe3-Wt-izP" id="MpF-qO-fje"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Add Event" id="b1e-Iy-8Nd"/>
+                    <navigationItem key="navigationItem" title="Add Event" id="b1e-Iy-8Nd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="YYb-Vt-9WA">
+                            <connections>
+                                <action selector="saveButton:" destination="qe3-Wt-izP" id="M78-3g-sVV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="containerPerson" destination="JLx-cg-Sxb" id="nog-l9-PPK"/>
                         <outlet property="datePicker" destination="wvt-X7-aYV" id="ZKN-se-T7k"/>
                         <outlet property="descLabel" destination="6JF-4c-1wz" id="8hA-hY-8LS"/>
                         <outlet property="mapView" destination="B49-l1-wKU" id="4yV-Qe-tYT"/>
+                        <outlet property="nameText" destination="81E-Im-e7Q" id="Ik8-zu-WNV"/>
                         <outlet property="selectSport" destination="ziu-Xo-h87" id="L47-sv-XKM"/>
                     </connections>
                 </tableViewController>
